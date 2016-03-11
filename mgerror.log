@@ -1,0 +1,42 @@
+﻿ <515655198540400512> 17/02/2016 20:15:40.494     [Error  ] - Constraint failure, data source: EMPRESTIMO, program: Browse - EMPRESTIMO
+ <515655198540400512> 17/02/2016 20:15:44.194     [Error  ] - Constraint failure, data source: EMPRESTIMO, program: Browse - EMPRESTIMO
+ <515655198540400512> 17/02/2016 20:15:46.847     [Error  ] - Constraint failure, data source: EMPRESTIMO, program: Browse - EMPRESTIMO
+ <515655198540400512> 17/02/2016 20:15:47.547     [Error  ] - Constraint failure, data source: EMPRESTIMO, program: Browse - EMPRESTIMO
+ <92962276715657664> 22/02/2016 21:45:12.530     [Error  ] - Update operation failed, data source: AUTOR, program: DA - Autores
+ <285709388638683680> 22/02/2016 21:45:48.909     [Error  ] - Update operation failed, data source: AUTOR, program: Autores.DA - Autores
+ <5479805860481528> 22/02/2016 23:55:48.421     [Error  ] - Duplicate index, data source: AUTOR, program: DA - Autores
+ <270606852506101792> 23/02/2016 19:56:03.440     [Error  ] - Duplicate index, data source: AUTOR, program: View - Autores - Pesquisa.View - Autores - Edição.Model - Autores - Editar
+ <176522130055303488> 23/02/2016 19:56:30.934     [Error  ] - Duplicate index, data source: AUTOR, program: View - Autores - Pesquisa.View - Autores - Edição.Model - Autores - Editar
+ <176522130055303488> 23/02/2016 19:56:36.863     [Error  ] - Duplicate index, data source: AUTOR, program: View - Autores - Pesquisa.View - Autores - Edição.Model - Autores - Editar
+ <164307206786582272> 23/02/2016 19:58:40.531     [Error  ] - Duplicate index, data source: AUTOR, program: View - Autores - Pesquisa.View - Autores - Edição.Model - Autores - Editar
+ <457413523795075456> 23/02/2016 20:00:54.632     [Error  ] - Duplicate index, data source: AUTOR, program: View - Autores - Pesquisa.View - Autores - Edição.Model - Autores - Editar
+ <-1> 23/02/2016 20:03:03.470     [Error  ] - no such table: AUTOR
+ <-1> 23/02/2016 20:03:08.964     [Error  ] - no such table: AUTORES
+ <434065342532409344> 26/02/2016 12:56:06.520     [Error  ] - [MgGui.dll] in Control.fillData(): missing datatype or picture string for control: , program: View - Livros
+ <434065342532409344> 26/02/2016 12:56:06.613     [Error  ] - [MgGui.dll] 
+   em System.Environment.GetStackTrace(Exception e, Boolean needFileInfo)
+   em System.Environment.get_StackTrace()
+   em com.magicsoftware.rte.CoreExecutor.WriteExceptionToLog(Int64 contextID, String msg)
+   em com.magicsoftware.rte.GuiEventsProcessor.WriteExceptionToLog(String message)
+   em com.magicsoftware.unipaas.Events.WriteExceptionToLog(String msg)
+   em com.magicsoftware.unipaas.management.gui.MgControlBase.fillData(MgFormBase mgForm, Int32 ditIdx)
+   em com.magicsoftware.unipaas.management.gui.ControlTable.initInnerObjects(String foundTagName)
+   em com.magicsoftware.unipaas.management.gui.ControlTable.fillData(MgFormBase mgForm)
+   em com.magicsoftware.unipaas.management.gui.MgFormBase.initInnerObjects(String foundTagName)
+   em com.magicsoftware.unipaas.management.gui.MgFormBase.fillData(TaskBase taskRef)
+   em com.magicsoftware.unipaas.management.tasks.TaskBase.FormInitData(MgFormBase parentForm)
+   em com.magicsoftware.unipaas.management.tasks.TaskBase.initInnerObjects(String foundTagName, MgFormBase parentForm)
+   em com.magicsoftware.rte.tasks.Task.FillData(MgFormBase parentFrom)
+   em com.magicsoftware.rte.tasks.TasksManager.InitInnerObjects(String currTagName, Int64 contextID, MgFormBase parentForm, Task& task)
+   em com.magicsoftware.rte.tasks.TasksManager.fillData(Int64 contextID, String xmlData, MgFormBase parentForm)
+   em com.magicsoftware.rte.RteExecutor.OpenTask(Double contextID, String xmlData, Int32 parentFormTskID, Int32 triggeringParentTaskID)
+   em RteExecutorEndpoint.OpenTask(Double contextID, String content, Int32 parentTskID, Int32 triggeringTaskID)
+   em RteExecutorBridge.OpenTask(RteExecutorBridge* , Double contextID, UInt16* content, Int32 parentFormTskID, Int32 triggeringTaskID)
+   em CoreExecutorEndpoint.EventsLoop()
+   em CoreExecutorGateway.EventsLoop()
+   em com.magicsoftware.rte.RTEmanager.ExecuteWorkThread()
+   em System.Threading.ThreadHelper.ThreadStart_Context(Object state)
+   em System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   em System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   em System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   em System.Threading.ThreadHelper.ThreadStart(), program: View - Livros
