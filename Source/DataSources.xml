@@ -288,7 +288,7 @@
 
   <IndexesLastIsn val="1"/>
 
-  <ForkeysLastIsn val="1"/>
+  <ForkeysLastIsn val="2"/>
 
   <MetaTreeRTIndex val="-1"/>
 
@@ -340,7 +340,7 @@
       <PropertyList model="FIELD">
         <Model attr_obj="FIELD_NUMERIC" id="1"/>
         <Modifiable id="53" val="Y"/>
-        <Range id="98" valUnicode="\-2147483648-2147483647"/>
+        <Range id="98" valUnicode="1 Consulta Interna,2 Locação"/>
         <Picture id="157" valUnicode="N1"/>
         <NullAllowed id="166"/>
         <NullDefault id="169"/>
@@ -446,7 +446,7 @@
 
   <IndexesLastIsn val="1"/>
 
-  <ForkeysLastIsn val="3"/>
+  <ForkeysLastIsn val="6"/>
 
   <MetaTreeRTIndex val="-1"/>
 
@@ -511,13 +511,15 @@
       <PropertyList model="FIELD">
         <Model attr_obj="FIELD_DATE" id="1"/>
         <Modifiable id="53" val="Y"/>
+        <NullAllowed id="166" val="Y"/>
+        <NullDefault id="169" val="Y"/>
         <StoredAs id="173" val="19"/>
         <Size id="174" val="8"/>
         <Definition id="175" val="2"/>
         <DatabaseInformation id="177"/>
         <DbColumnName id="178" val="dtDevolucao"/>
         <UserType id="180"/>
-        <_FieldPhysical Name="dtDevolucao" PIC_U="##/##/####" Size="8" allowed_null="N" attribute="D" context_cookies="Y" database_definition="2" id="231" storage="19" translate="1"/>
+        <_FieldPhysical Name="dtDevolucao" PIC_U="##/##/####" Size="8" allowed_null="Y" attribute="D" context_cookies="Y" database_definition="2" id="231" storage="19" translate="1"/>
         <PartOfDatetime id="244"/>
         <_FieldStyle id="276" val="1"/>
         <Content id="434" val="2"/>
@@ -1167,7 +1169,7 @@
 
   <IndexesLastIsn val="1"/>
 
-  <ForkeysLastIsn val="1"/>
+  <ForkeysLastIsn val="2"/>
 
   <MetaTreeRTIndex val="-1"/>
 
@@ -1236,13 +1238,15 @@
       <PropertyList model="FIELD">
         <Model attr_obj="FIELD_DATE" id="1"/>
         <Modifiable id="53" val="Y"/>
+        <NullAllowed id="166" val="Y"/>
+        <NullDefault id="169" val="Y"/>
         <StoredAs id="173" val="19"/>
         <Size id="174" val="8"/>
         <Definition id="175" val="2"/>
         <DatabaseInformation id="177"/>
         <DbColumnName id="178" val="dtNascimento"/>
         <UserType id="180"/>
-        <_FieldPhysical Name="dtNascimento" PIC_U="##/##/####" Size="8" allowed_null="N" attribute="D" context_cookies="Y" database_definition="2" id="231" storage="19" translate="1"/>
+        <_FieldPhysical Name="dtNascimento" PIC_U="##/##/####" Size="8" allowed_null="Y" attribute="D" context_cookies="Y" database_definition="2" id="231" storage="19" translate="1"/>
         <PartOfDatetime id="244"/>
         <_FieldStyle id="276" val="1"/>
         <Content id="434" val="2"/>

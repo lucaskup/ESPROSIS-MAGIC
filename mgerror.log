@@ -40,3 +40,8 @@
    em System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
    em System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
    em System.Threading.ThreadHelper.ThreadStart(), program: View - Livros
+ <305620212509213696> 12/04/2016 23:12:07.035     [Error  ] - Cannot modify Read Only, data source: EMPRESTIMO, program: Principal.View - Main.View - Devolução.Controller - Emprest - Devolve
+ <50011607200217448> 12/04/2016 23:12:19.967     [Error  ] - Cannot modify Read Only, data source: EMPRESTIMO, program: Principal.View - Main.View - Devolução.Controller - Emprest - Devolve
+ <316510837175657600> 12/04/2016 23:14:32.701     [Error  ] - Cannot modify Read Only, data source: EMPRESTIMO, program: Principal.View - Main.View - Devolução
+ <99568384759853024> 13/04/2016 19:47:39.813     [Error  ] - Warning - Modify operation canceled due to task Query mode, program: Principal.View - Main.View - Multa
+ <293638910802101568> 13/04/2016 19:48:09.782     [Error  ] - Warning - Modify operation canceled due to task Query mode, program: View - Multa

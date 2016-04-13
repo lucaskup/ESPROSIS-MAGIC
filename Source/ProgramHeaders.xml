@@ -24,9 +24,9 @@
         <RunProjectAs val="O"/>
         <FormType val="N"/>
         <DotNetObjectExists val="N"/>
-        <LastModified _date="736017" _time="72468" date="23/02/2016" time="20:07:48"/>
+        <LastModified _date="736065" _time="81128" date="11/04/2016" time="22:32:08"/>
       </Header>
-      <SourceFileTimeStamp _date="736017" _time="83268" date="23/02/2016" time="23:07:48"/>
+      <SourceFileTimeStamp _date="736066" _time="5528" date="12/04/2016" time="01:32:08"/>
     </Program>
     <Program>
       <Header Description="Utils - Ultimo ID" ISN_2="1" LastIsn="1" id="7">
@@ -35,6 +35,73 @@
         <SQL val="Y"/>
         <ReturnValue>
           <ReturnValueAttr MgAttr="N"/>
+          <TSK_PARAMS val="2"/>
+          <ParametersCount val="2"/>
+          <ParametersAttributes>
+            <Attr MgAttr="N"/>
+            <Attr MgAttr="N"/>
+          </ParametersAttributes>
+        </ReturnValue>
+        <SqlWhereExist val="N"/>
+        <TaskType val="B"/>
+        <External val="N"/>
+        <Offline val="N"/>
+        <FormType val="N"/>
+        <DotNetObjectExists val="N"/>
+        <LastModified _date="736065" _time="82144" date="11/04/2016" time="22:49:04"/>
+      </Header>
+      <SourceFileTimeStamp _date="736066" _time="6544" date="12/04/2016" time="01:49:04"/>
+    </Program>
+    <Program>
+      <Header Description="Principal" ISN_2="1" LastIsn="1" id="29">
+        <ExecutionRight comp="-1"/>
+        <Resident val="N"/>
+        <SQL val="N"/>
+        <ReturnValue>
+          <ReturnValueAttr/>
+          <ParametersAttributes/>
+        </ReturnValue>
+        <SqlWhereExist val="N"/>
+        <TaskType val="B"/>
+        <External val="N"/>
+        <Offline val="N"/>
+        <FormType val="N"/>
+        <DotNetObjectExists val="N"/>
+        <LastModified _date="736067" _time="71191" date="13/04/2016" time="19:46:31"/>
+      </Header>
+      <SourceFileTimeStamp _date="736067" _time="81991" date="13/04/2016" time="22:46:31"/>
+    </Program>
+    <Program>
+      <Header Description="Controller - Autores - Editar" ISN_2="1" LastIsn="1" id="3">
+        <ExecutionRight comp="-1"/>
+        <Resident val="Y"/>
+        <SQL val="N"/>
+        <ReturnValue>
+          <ReturnValueAttr/>
+          <TSK_PARAMS val="2"/>
+          <ParametersCount val="2"/>
+          <ParametersAttributes>
+            <Attr MgAttr="N"/>
+            <Attr MgAttr="A"/>
+          </ParametersAttributes>
+        </ReturnValue>
+        <SqlWhereExist val="N"/>
+        <TaskType val="B"/>
+        <External val="N"/>
+        <Offline val="N"/>
+        <FormType val="N"/>
+        <DotNetObjectExists val="N"/>
+        <LastModified _date="736062" _time="71499" date="08/04/2016" time="19:51:39"/>
+      </Header>
+      <SourceFileTimeStamp _date="736062" _time="82299" date="08/04/2016" time="22:51:39"/>
+    </Program>
+    <Program>
+      <Header Description="Controller - Autores - Excluir" ISN_2="1" LastIsn="1" id="5">
+        <ExecutionRight comp="-1"/>
+        <Resident val="Y"/>
+        <SQL val="N"/>
+        <ReturnValue>
+          <ReturnValueAttr/>
           <TSK_PARAMS val="1"/>
           <ParametersCount val="1"/>
           <ParametersAttributes>
@@ -47,9 +114,359 @@
         <Offline val="N"/>
         <FormType val="N"/>
         <DotNetObjectExists val="N"/>
-        <LastModified _date="736017" _time="72579" date="23/02/2016" time="20:09:39"/>
+        <LastModified _date="736062" _time="71484" date="08/04/2016" time="19:51:24"/>
       </Header>
-      <SourceFileTimeStamp _date="736017" _time="83379" date="23/02/2016" time="23:09:39"/>
+      <SourceFileTimeStamp _date="736062" _time="82284" date="08/04/2016" time="22:51:24"/>
+    </Program>
+    <Program>
+      <Header Description="Controller - Livros - Editar" ISN_2="1" LastIsn="1" id="11">
+        <ExecutionRight comp="-1"/>
+        <Resident val="Y"/>
+        <SQL val="N"/>
+        <ReturnValue>
+          <ReturnValueAttr/>
+          <TSK_PARAMS val="4"/>
+          <ParametersCount val="4"/>
+          <ParametersAttributes>
+            <Attr MgAttr="N"/>
+            <Attr MgAttr="A"/>
+            <Attr MgAttr="N"/>
+            <Attr MgAttr="A"/>
+          </ParametersAttributes>
+        </ReturnValue>
+        <SqlWhereExist val="N"/>
+        <TaskType val="B"/>
+        <External val="N"/>
+        <Offline val="N"/>
+        <FormType val="N"/>
+        <DotNetObjectExists val="N"/>
+        <LastModified _date="736062" _time="71478" date="08/04/2016" time="19:51:18"/>
+      </Header>
+      <SourceFileTimeStamp _date="736062" _time="82278" date="08/04/2016" time="22:51:18"/>
+    </Program>
+    <Program>
+      <Header Description="Controller - Livros - Excluir" ISN_2="1" LastIsn="1" id="12">
+        <ExecutionRight comp="-1"/>
+        <Resident val="Y"/>
+        <SQL val="N"/>
+        <ReturnValue>
+          <ReturnValueAttr/>
+          <TSK_PARAMS val="1"/>
+          <ParametersCount val="1"/>
+          <ParametersAttributes>
+            <Attr MgAttr="N"/>
+          </ParametersAttributes>
+        </ReturnValue>
+        <SqlWhereExist val="N"/>
+        <TaskType val="B"/>
+        <External val="N"/>
+        <Offline val="N"/>
+        <FormType val="N"/>
+        <DotNetObjectExists val="N"/>
+        <LastModified _date="736062" _time="71474" date="08/04/2016" time="19:51:14"/>
+      </Header>
+      <SourceFileTimeStamp _date="736062" _time="82274" date="08/04/2016" time="22:51:14"/>
+    </Program>
+    <Program>
+      <Header Description="Controller - Exemplar - Editar" ISN_2="1" LastIsn="1" id="15">
+        <ExecutionRight comp="-1"/>
+        <Resident val="Y"/>
+        <SQL val="N"/>
+        <ReturnValue>
+          <ReturnValueAttr/>
+          <TSK_PARAMS val="4"/>
+          <ParametersCount val="4"/>
+          <ParametersAttributes>
+            <Attr MgAttr="N"/>
+            <Attr MgAttr="B"/>
+            <Attr MgAttr="N"/>
+            <Attr MgAttr="N"/>
+          </ParametersAttributes>
+        </ReturnValue>
+        <SqlWhereExist val="N"/>
+        <TaskType val="B"/>
+        <External val="N"/>
+        <Offline val="N"/>
+        <FormType val="N"/>
+        <DotNetObjectExists val="N"/>
+        <LastModified _date="736062" _time="71470" date="08/04/2016" time="19:51:10"/>
+      </Header>
+      <SourceFileTimeStamp _date="736062" _time="82270" date="08/04/2016" time="22:51:10"/>
+    </Program>
+    <Program>
+      <Header Description="Controlle - Exemplar - Excluir" ISN_2="1" LastIsn="1" id="16">
+        <ExecutionRight comp="-1"/>
+        <Resident val="Y"/>
+        <SQL val="N"/>
+        <ReturnValue>
+          <ReturnValueAttr/>
+          <TSK_PARAMS val="1"/>
+          <ParametersCount val="1"/>
+          <ParametersAttributes>
+            <Attr MgAttr="N"/>
+          </ParametersAttributes>
+        </ReturnValue>
+        <SqlWhereExist val="N"/>
+        <TaskType val="B"/>
+        <External val="N"/>
+        <Offline val="N"/>
+        <FormType val="N"/>
+        <DotNetObjectExists val="N"/>
+        <LastModified _date="736062" _time="71466" date="08/04/2016" time="19:51:06"/>
+      </Header>
+      <SourceFileTimeStamp _date="736062" _time="82266" date="08/04/2016" time="22:51:06"/>
+    </Program>
+    <Program>
+      <Header Description="Controller - Perfil - Editar" ISN_2="1" LastIsn="1" id="19">
+        <ExecutionRight comp="-1"/>
+        <Resident val="Y"/>
+        <SQL val="N"/>
+        <ReturnValue>
+          <ReturnValueAttr/>
+          <TSK_PARAMS val="5"/>
+          <ParametersCount val="5"/>
+          <ParametersAttributes>
+            <Attr MgAttr="N"/>
+            <Attr MgAttr="A"/>
+            <Attr MgAttr="N"/>
+            <Attr MgAttr="N"/>
+            <Attr MgAttr="N"/>
+          </ParametersAttributes>
+        </ReturnValue>
+        <SqlWhereExist val="N"/>
+        <TaskType val="B"/>
+        <External val="N"/>
+        <Offline val="N"/>
+        <FormType val="N"/>
+        <DotNetObjectExists val="N"/>
+        <LastModified _date="736062" _time="71461" date="08/04/2016" time="19:51:01"/>
+      </Header>
+      <SourceFileTimeStamp _date="736062" _time="82261" date="08/04/2016" time="22:51:01"/>
+    </Program>
+    <Program>
+      <Header Description="Controller - Perfil - Excluir" ISN_2="1" LastIsn="1" id="20">
+        <ExecutionRight comp="-1"/>
+        <Resident val="Y"/>
+        <SQL val="N"/>
+        <ReturnValue>
+          <ReturnValueAttr/>
+          <TSK_PARAMS val="1"/>
+          <ParametersCount val="1"/>
+          <ParametersAttributes>
+            <Attr MgAttr="N"/>
+          </ParametersAttributes>
+        </ReturnValue>
+        <SqlWhereExist val="N"/>
+        <TaskType val="B"/>
+        <External val="N"/>
+        <Offline val="N"/>
+        <FormType val="N"/>
+        <DotNetObjectExists val="N"/>
+        <LastModified _date="736062" _time="71457" date="08/04/2016" time="19:50:57"/>
+      </Header>
+      <SourceFileTimeStamp _date="736062" _time="82257" date="08/04/2016" time="22:50:57"/>
+    </Program>
+    <Program>
+      <Header Description="Controller - Usuario - Editar" ISN_2="1" LastIsn="1" id="23">
+        <ExecutionRight comp="-1"/>
+        <Resident val="Y"/>
+        <SQL val="N"/>
+        <ReturnValue>
+          <ReturnValueAttr/>
+          <TSK_PARAMS val="6"/>
+          <ParametersCount val="6"/>
+          <ParametersAttributes>
+            <Attr MgAttr="N"/>
+            <Attr MgAttr="A"/>
+            <Attr MgAttr="A"/>
+            <Attr MgAttr="D"/>
+            <Attr MgAttr="N"/>
+            <Attr MgAttr="A"/>
+          </ParametersAttributes>
+        </ReturnValue>
+        <SqlWhereExist val="N"/>
+        <TaskType val="B"/>
+        <External val="N"/>
+        <Offline val="N"/>
+        <FormType val="N"/>
+        <DotNetObjectExists val="N"/>
+        <LastModified _date="736062" _time="71438" date="08/04/2016" time="19:50:38"/>
+      </Header>
+      <SourceFileTimeStamp _date="736062" _time="82238" date="08/04/2016" time="22:50:38"/>
+    </Program>
+    <Program>
+      <Header Description="Controller - Usuario - Excluir" ISN_2="1" LastIsn="1" id="24">
+        <ExecutionRight comp="-1"/>
+        <Resident val="Y"/>
+        <SQL val="N"/>
+        <ReturnValue>
+          <ReturnValueAttr/>
+          <TSK_PARAMS val="1"/>
+          <ParametersCount val="1"/>
+          <ParametersAttributes>
+            <Attr MgAttr="N"/>
+          </ParametersAttributes>
+        </ReturnValue>
+        <SqlWhereExist val="N"/>
+        <TaskType val="B"/>
+        <External val="N"/>
+        <Offline val="N"/>
+        <FormType val="N"/>
+        <DotNetObjectExists val="N"/>
+        <LastModified _date="736062" _time="71434" date="08/04/2016" time="19:50:34"/>
+      </Header>
+      <SourceFileTimeStamp _date="736062" _time="82234" date="08/04/2016" time="22:50:34"/>
+    </Program>
+    <Program>
+      <Header Description="Controller - Usuario - Login" ISN_2="1" LastIsn="1" id="26">
+        <ExecutionRight comp="-1"/>
+        <Resident val="N"/>
+        <SQL val="N"/>
+        <ReturnValue>
+          <ReturnValueAttr/>
+          <TSK_PARAMS val="2"/>
+          <ParametersCount val="2"/>
+          <ParametersAttributes>
+            <Attr MgAttr="A"/>
+            <Attr MgAttr="A"/>
+          </ParametersAttributes>
+        </ReturnValue>
+        <SqlWhereExist val="N"/>
+        <TaskType val="B"/>
+        <External val="N"/>
+        <Offline val="N"/>
+        <FormType val="N"/>
+        <DotNetObjectExists val="N"/>
+        <LastModified _date="736063" _time="40125" date="09/04/2016" time="11:08:45"/>
+      </Header>
+      <SourceFileTimeStamp _date="736063" _time="50925" date="09/04/2016" time="14:08:45"/>
+    </Program>
+    <Program>
+      <Header Description="Controller - Emprest - Fazer" ISN_2="1" LastIsn="15" id="31">
+        <ExecutionRight comp="-1"/>
+        <Resident val="N"/>
+        <SQL val="N"/>
+        <ReturnValue>
+          <ReturnValueAttr/>
+          <TSK_PARAMS val="2"/>
+          <ParametersCount val="2"/>
+          <ParametersAttributes>
+            <Attr MgAttr="N"/>
+            <Attr MgAttr="A"/>
+          </ParametersAttributes>
+        </ReturnValue>
+        <SqlWhereExist val="N"/>
+        <TaskType val="B"/>
+        <External val="N"/>
+        <Offline val="N"/>
+        <FormType val="N"/>
+        <DotNetObjectExists val="N"/>
+        <LastModified _date="736066" _time="82751" date="12/04/2016" time="22:59:11"/>
+      </Header>
+      <SourceFileTimeStamp _date="736067" _time="7151" date="13/04/2016" time="01:59:11"/>
+    </Program>
+    <Program>
+      <Header Description="Controller - Emprest - Editar" ISN_2="1" LastIsn="1" id="32">
+        <ExecutionRight comp="-1"/>
+        <Resident val="Y"/>
+        <SQL val="N"/>
+        <ReturnValue>
+          <ReturnValueAttr/>
+          <TSK_PARAMS val="7"/>
+          <ParametersCount val="7"/>
+          <ParametersAttributes>
+            <Attr MgAttr="N"/>
+            <Attr MgAttr="D"/>
+            <Attr MgAttr="D"/>
+            <Attr MgAttr="D"/>
+            <Attr MgAttr="N"/>
+            <Attr MgAttr="N"/>
+            <Attr MgAttr="N"/>
+          </ParametersAttributes>
+        </ReturnValue>
+        <SqlWhereExist val="N"/>
+        <TaskType val="B"/>
+        <External val="N"/>
+        <Offline val="N"/>
+        <FormType val="N"/>
+        <DotNetObjectExists val="N"/>
+        <LastModified _date="736066" _time="82740" date="12/04/2016" time="22:59:00"/>
+      </Header>
+      <SourceFileTimeStamp _date="736067" _time="7140" date="13/04/2016" time="01:59:00"/>
+    </Program>
+    <Program>
+      <Header Description="Controller - Emprest - Devolve" ISN_2="1" LastIsn="1" id="34">
+        <ExecutionRight comp="-1"/>
+        <Resident val="N"/>
+        <SQL val="N"/>
+        <ReturnValue>
+          <ReturnValueAttr/>
+          <TSK_PARAMS val="2"/>
+          <ParametersCount val="2"/>
+          <ParametersAttributes>
+            <Attr MgAttr="N"/>
+            <Attr MgAttr="A"/>
+          </ParametersAttributes>
+        </ReturnValue>
+        <SqlWhereExist val="N"/>
+        <TaskType val="B"/>
+        <External val="N"/>
+        <Offline val="N"/>
+        <FormType val="N"/>
+        <DotNetObjectExists val="N"/>
+        <LastModified _date="736067" _time="69421" date="13/04/2016" time="19:17:01"/>
+      </Header>
+      <SourceFileTimeStamp _date="736067" _time="80221" date="13/04/2016" time="22:17:01"/>
+    </Program>
+    <Program>
+      <Header Description="Controller - Multa - Editar" ISN_2="1" LastIsn="1" id="36">
+        <ExecutionRight comp="-1"/>
+        <Resident val="Y"/>
+        <SQL val="N"/>
+        <ReturnValue>
+          <ReturnValueAttr/>
+          <TSK_PARAMS val="5"/>
+          <ParametersCount val="5"/>
+          <ParametersAttributes>
+            <Attr MgAttr="N"/>
+            <Attr MgAttr="N"/>
+            <Attr MgAttr="D"/>
+            <Attr MgAttr="B"/>
+            <Attr MgAttr="A"/>
+          </ParametersAttributes>
+        </ReturnValue>
+        <SqlWhereExist val="N"/>
+        <TaskType val="B"/>
+        <External val="N"/>
+        <Offline val="N"/>
+        <FormType val="N"/>
+        <DotNetObjectExists val="N"/>
+        <LastModified _date="736066" _time="83035" date="12/04/2016" time="23:03:55"/>
+      </Header>
+      <SourceFileTimeStamp _date="736067" _time="7435" date="13/04/2016" time="02:03:55"/>
+    </Program>
+    <Program>
+      <Header Description="Controller - Multa - Excluir" ISN_2="1" LastIsn="1" id="39">
+        <ExecutionRight comp="-1"/>
+        <Resident val="Y"/>
+        <SQL val="N"/>
+        <ReturnValue>
+          <ReturnValueAttr/>
+          <TSK_PARAMS val="1"/>
+          <ParametersCount val="1"/>
+          <ParametersAttributes>
+            <Attr MgAttr="N"/>
+          </ParametersAttributes>
+        </ReturnValue>
+        <SqlWhereExist val="N"/>
+        <TaskType val="B"/>
+        <External val="N"/>
+        <Offline val="N"/>
+        <FormType val="N"/>
+        <DotNetObjectExists val="N"/>
+        <LastModified _date="736067" _time="70501" date="13/04/2016" time="19:35:01"/>
+      </Header>
+      <SourceFileTimeStamp _date="736067" _time="81301" date="13/04/2016" time="22:35:01"/>
     </Program>
     <Program>
       <Header Description="View - Autores" ISN_2="1" LastIsn="1" id="4">
@@ -93,53 +510,6 @@
         <LastModified _date="736017" _time="74396" date="23/02/2016" time="20:39:56"/>
       </Header>
       <SourceFileTimeStamp _date="736017" _time="85196" date="23/02/2016" time="23:39:56"/>
-    </Program>
-    <Program>
-      <Header Description="Model - Autores - Editar" ISN_2="1" LastIsn="1" id="3">
-        <ExecutionRight comp="-1"/>
-        <Resident val="Y"/>
-        <SQL val="N"/>
-        <ReturnValue>
-          <ReturnValueAttr/>
-          <TSK_PARAMS val="2"/>
-          <ParametersCount val="2"/>
-          <ParametersAttributes>
-            <Attr MgAttr="N"/>
-            <Attr MgAttr="A"/>
-          </ParametersAttributes>
-        </ReturnValue>
-        <SqlWhereExist val="N"/>
-        <TaskType val="B"/>
-        <External val="N"/>
-        <Offline val="N"/>
-        <FormType val="N"/>
-        <DotNetObjectExists val="N"/>
-        <LastModified _date="736017" _time="72535" date="23/02/2016" time="20:08:55"/>
-      </Header>
-      <SourceFileTimeStamp _date="736017" _time="83335" date="23/02/2016" time="23:08:55"/>
-    </Program>
-    <Program>
-      <Header Description="Model - Autores - Excluir" ISN_2="1" LastIsn="1" id="5">
-        <ExecutionRight comp="-1"/>
-        <Resident val="Y"/>
-        <SQL val="N"/>
-        <ReturnValue>
-          <ReturnValueAttr/>
-          <TSK_PARAMS val="1"/>
-          <ParametersCount val="1"/>
-          <ParametersAttributes>
-            <Attr MgAttr="N"/>
-          </ParametersAttributes>
-        </ReturnValue>
-        <SqlWhereExist val="N"/>
-        <TaskType val="B"/>
-        <External val="N"/>
-        <Offline val="N"/>
-        <FormType val="N"/>
-        <DotNetObjectExists val="N"/>
-        <LastModified _date="736017" _time="71313" date="23/02/2016" time="19:48:33"/>
-      </Header>
-      <SourceFileTimeStamp _date="736017" _time="82113" date="23/02/2016" time="22:48:33"/>
     </Program>
     <Program>
       <Header Description="View - Livros" ISN_2="1" LastIsn="1" id="9">
@@ -187,55 +557,6 @@
       <SourceFileTimeStamp _date="736023" _time="83457" date="29/02/2016" time="23:10:57"/>
     </Program>
     <Program>
-      <Header Description="Model - Livros - Editar" ISN_2="1" LastIsn="1" id="11">
-        <ExecutionRight comp="-1"/>
-        <Resident val="Y"/>
-        <SQL val="N"/>
-        <ReturnValue>
-          <ReturnValueAttr/>
-          <TSK_PARAMS val="4"/>
-          <ParametersCount val="4"/>
-          <ParametersAttributes>
-            <Attr MgAttr="N"/>
-            <Attr MgAttr="A"/>
-            <Attr MgAttr="N"/>
-            <Attr MgAttr="A"/>
-          </ParametersAttributes>
-        </ReturnValue>
-        <SqlWhereExist val="N"/>
-        <TaskType val="B"/>
-        <External val="N"/>
-        <Offline val="N"/>
-        <FormType val="N"/>
-        <DotNetObjectExists val="N"/>
-        <LastModified _date="736023" _time="71567" date="29/02/2016" time="19:52:47"/>
-      </Header>
-      <SourceFileTimeStamp _date="736023" _time="82367" date="29/02/2016" time="22:52:47"/>
-    </Program>
-    <Program>
-      <Header Description="Model - Livros - Excluir" ISN_2="1" LastIsn="1" id="12">
-        <ExecutionRight comp="-1"/>
-        <Resident val="Y"/>
-        <SQL val="N"/>
-        <ReturnValue>
-          <ReturnValueAttr/>
-          <TSK_PARAMS val="1"/>
-          <ParametersCount val="1"/>
-          <ParametersAttributes>
-            <Attr MgAttr="N"/>
-          </ParametersAttributes>
-        </ReturnValue>
-        <SqlWhereExist val="N"/>
-        <TaskType val="B"/>
-        <External val="N"/>
-        <Offline val="N"/>
-        <FormType val="N"/>
-        <DotNetObjectExists val="N"/>
-        <LastModified _date="736023" _time="71751" date="29/02/2016" time="19:55:51"/>
-      </Header>
-      <SourceFileTimeStamp _date="736023" _time="82551" date="29/02/2016" time="22:55:51"/>
-    </Program>
-    <Program>
       <Header Description="View - Exemplar" ISN_2="1" LastIsn="1" id="13">
         <ExecutionRight comp="-1"/>
         <Resident val="N"/>
@@ -250,9 +571,9 @@
         <Offline val="N"/>
         <FormType val="N"/>
         <DotNetObjectExists val="N"/>
-        <LastModified _date="736023" _time="73523" date="29/02/2016" time="20:25:23"/>
+        <LastModified _date="736065" _time="78875" date="11/04/2016" time="21:54:35"/>
       </Header>
-      <SourceFileTimeStamp _date="736023" _time="84323" date="29/02/2016" time="23:25:23"/>
+      <SourceFileTimeStamp _date="736066" _time="3275" date="12/04/2016" time="00:54:35"/>
     </Program>
     <Program>
       <Header Description="View - Exemplar - Edição" ISN_2="1" LastIsn="1" id="14">
@@ -276,58 +597,9 @@
         <Offline val="N"/>
         <FormType val="N"/>
         <DotNetObjectExists val="N"/>
-        <LastModified _date="736023" _time="73564" date="29/02/2016" time="20:26:04"/>
+        <LastModified _date="736065" _time="78835" date="11/04/2016" time="21:53:55"/>
       </Header>
-      <SourceFileTimeStamp _date="736023" _time="84364" date="29/02/2016" time="23:26:04"/>
-    </Program>
-    <Program>
-      <Header Description="Model - Exemplar - Editar" ISN_2="1" LastIsn="1" id="15">
-        <ExecutionRight comp="-1"/>
-        <Resident val="Y"/>
-        <SQL val="N"/>
-        <ReturnValue>
-          <ReturnValueAttr/>
-          <TSK_PARAMS val="4"/>
-          <ParametersCount val="4"/>
-          <ParametersAttributes>
-            <Attr MgAttr="N"/>
-            <Attr MgAttr="B"/>
-            <Attr MgAttr="N"/>
-            <Attr MgAttr="N"/>
-          </ParametersAttributes>
-        </ReturnValue>
-        <SqlWhereExist val="N"/>
-        <TaskType val="B"/>
-        <External val="N"/>
-        <Offline val="N"/>
-        <FormType val="N"/>
-        <DotNetObjectExists val="N"/>
-        <LastModified _date="736023" _time="73630" date="29/02/2016" time="20:27:10"/>
-      </Header>
-      <SourceFileTimeStamp _date="736023" _time="84430" date="29/02/2016" time="23:27:10"/>
-    </Program>
-    <Program>
-      <Header Description="Model - Exemplar - Excluir" ISN_2="1" LastIsn="1" id="16">
-        <ExecutionRight comp="-1"/>
-        <Resident val="Y"/>
-        <SQL val="N"/>
-        <ReturnValue>
-          <ReturnValueAttr/>
-          <TSK_PARAMS val="1"/>
-          <ParametersCount val="1"/>
-          <ParametersAttributes>
-            <Attr MgAttr="N"/>
-          </ParametersAttributes>
-        </ReturnValue>
-        <SqlWhereExist val="N"/>
-        <TaskType val="B"/>
-        <External val="N"/>
-        <Offline val="N"/>
-        <FormType val="N"/>
-        <DotNetObjectExists val="N"/>
-        <LastModified _date="736023" _time="73710" date="29/02/2016" time="20:28:30"/>
-      </Header>
-      <SourceFileTimeStamp _date="736023" _time="84510" date="29/02/2016" time="23:28:30"/>
+      <SourceFileTimeStamp _date="736066" _time="3235" date="12/04/2016" time="00:53:55"/>
     </Program>
     <Program>
       <Header Description="View - Perfil" ISN_2="1" LastIsn="1" id="17">
@@ -376,9 +648,132 @@
       <SourceFileTimeStamp _date="736023" _time="86049" date="29/02/2016" time="23:54:09"/>
     </Program>
     <Program>
-      <Header Description="Model - Perfil - Editar" ISN_2="1" LastIsn="1" id="19">
+      <Header Description="View - Usuario" ISN_2="1" LastIsn="1" id="21">
         <ExecutionRight comp="-1"/>
-        <Resident val="Y"/>
+        <Resident val="N"/>
+        <SQL val="N"/>
+        <ReturnValue>
+          <ReturnValueAttr/>
+          <ParametersAttributes/>
+        </ReturnValue>
+        <SqlWhereExist val="N"/>
+        <TaskType val="O"/>
+        <External val="N"/>
+        <Offline val="N"/>
+        <FormType val="N"/>
+        <DotNetObjectExists val="N"/>
+        <LastModified _date="736062" _time="70002" date="08/04/2016" time="19:26:42"/>
+      </Header>
+      <SourceFileTimeStamp _date="736062" _time="80802" date="08/04/2016" time="22:26:42"/>
+    </Program>
+    <Program>
+      <Header Description="View - Usuario - Edição" ISN_2="1" LastIsn="1" id="22">
+        <ExecutionRight comp="-1"/>
+        <Resident val="N"/>
+        <SQL val="N"/>
+        <ReturnValue>
+          <ReturnValueAttr/>
+          <TSK_PARAMS val="6"/>
+          <ParametersCount val="6"/>
+          <ParametersAttributes>
+            <Attr MgAttr="N"/>
+            <Attr MgAttr="A"/>
+            <Attr MgAttr="A"/>
+            <Attr MgAttr="D"/>
+            <Attr MgAttr="N"/>
+            <Attr MgAttr="A"/>
+          </ParametersAttributes>
+        </ReturnValue>
+        <SqlWhereExist val="N"/>
+        <TaskType val="O"/>
+        <External val="N"/>
+        <Offline val="N"/>
+        <FormType val="N"/>
+        <DotNetObjectExists val="N"/>
+        <LastModified _date="736062" _time="70593" date="08/04/2016" time="19:36:33"/>
+      </Header>
+      <SourceFileTimeStamp _date="736062" _time="81393" date="08/04/2016" time="22:36:33"/>
+    </Program>
+    <Program>
+      <Header Description="View - Login" ISN_2="1" LastIsn="1" id="25">
+        <ExecutionRight comp="-1"/>
+        <Resident val="N"/>
+        <SQL val="N"/>
+        <ReturnValue>
+          <ReturnValueAttr/>
+          <ParametersAttributes/>
+        </ReturnValue>
+        <SqlWhereExist val="N"/>
+        <TaskType val="O"/>
+        <External val="N"/>
+        <Offline val="N"/>
+        <FormType val="N"/>
+        <DotNetObjectExists val="N"/>
+        <LastModified _date="736065" _time="77372" date="11/04/2016" time="21:29:32"/>
+      </Header>
+      <SourceFileTimeStamp _date="736066" _time="1772" date="12/04/2016" time="00:29:32"/>
+    </Program>
+    <Program>
+      <Header Description="View - Emprestimo" ISN_2="1" LastIsn="1" id="30">
+        <ExecutionRight comp="-1"/>
+        <Resident val="N"/>
+        <SQL val="N"/>
+        <ReturnValue>
+          <ReturnValueAttr/>
+          <ParametersAttributes/>
+        </ReturnValue>
+        <SqlWhereExist val="N"/>
+        <TaskType val="O"/>
+        <External val="N"/>
+        <Offline val="N"/>
+        <FormType val="N"/>
+        <DotNetObjectExists val="N"/>
+        <LastModified _date="736065" _time="77700" date="11/04/2016" time="21:35:00"/>
+      </Header>
+      <SourceFileTimeStamp _date="736066" _time="2100" date="12/04/2016" time="00:35:00"/>
+    </Program>
+    <Program>
+      <Header Description="View - Devolução" ISN_2="1" LastIsn="1" id="33">
+        <ExecutionRight comp="-1"/>
+        <Resident val="N"/>
+        <SQL val="N"/>
+        <ReturnValue>
+          <ReturnValueAttr/>
+          <ParametersAttributes/>
+        </ReturnValue>
+        <SqlWhereExist val="N"/>
+        <TaskType val="O"/>
+        <External val="N"/>
+        <Offline val="N"/>
+        <FormType val="N"/>
+        <DotNetObjectExists val="N"/>
+        <LastModified _date="736067" _time="69405" date="13/04/2016" time="19:16:45"/>
+      </Header>
+      <SourceFileTimeStamp _date="736067" _time="80205" date="13/04/2016" time="22:16:45"/>
+    </Program>
+    <Program>
+      <Header Description="View - Multa" ISN_2="1" LastIsn="1" id="38">
+        <ExecutionRight comp="-1"/>
+        <Resident val="N"/>
+        <SQL val="N"/>
+        <ReturnValue>
+          <ReturnValueAttr/>
+          <ParametersAttributes/>
+        </ReturnValue>
+        <SqlWhereExist val="N"/>
+        <TaskType val="O"/>
+        <External val="N"/>
+        <Offline val="N"/>
+        <FormType val="N"/>
+        <DotNetObjectExists val="N"/>
+        <LastModified _date="736067" _time="71367" date="13/04/2016" time="19:49:27"/>
+      </Header>
+      <SourceFileTimeStamp _date="736067" _time="82167" date="13/04/2016" time="22:49:27"/>
+    </Program>
+    <Program>
+      <Header Description="View - Multa Obs - Edição" ISN_2="1" LastIsn="1" id="40">
+        <ExecutionRight comp="-1"/>
+        <Resident val="N"/>
         <SQL val="N"/>
         <ReturnValue>
           <ReturnValueAttr/>
@@ -386,44 +781,40 @@
           <ParametersCount val="5"/>
           <ParametersAttributes>
             <Attr MgAttr="N"/>
+            <Attr MgAttr="N"/>
+            <Attr MgAttr="D"/>
+            <Attr MgAttr="B"/>
             <Attr MgAttr="A"/>
-            <Attr MgAttr="N"/>
-            <Attr MgAttr="N"/>
-            <Attr MgAttr="N"/>
           </ParametersAttributes>
         </ReturnValue>
         <SqlWhereExist val="N"/>
-        <TaskType val="B"/>
+        <TaskType val="O"/>
         <External val="N"/>
         <Offline val="N"/>
         <FormType val="N"/>
         <DotNetObjectExists val="N"/>
-        <LastModified _date="736023" _time="74686" date="29/02/2016" time="20:44:46"/>
+        <LastModified _date="736067" _time="71111" date="13/04/2016" time="19:45:11"/>
       </Header>
-      <SourceFileTimeStamp _date="736023" _time="85486" date="29/02/2016" time="23:44:46"/>
+      <SourceFileTimeStamp _date="736067" _time="81911" date="13/04/2016" time="22:45:11"/>
     </Program>
     <Program>
-      <Header Description="Model - Perfil - Excluir" ISN_2="1" LastIsn="1" id="20">
+      <Header Description="View - Main" ISN_2="1" LastIsn="1" id="41">
         <ExecutionRight comp="-1"/>
-        <Resident val="Y"/>
+        <Resident val="N"/>
         <SQL val="N"/>
         <ReturnValue>
           <ReturnValueAttr/>
-          <TSK_PARAMS val="1"/>
-          <ParametersCount val="1"/>
-          <ParametersAttributes>
-            <Attr MgAttr="N"/>
-          </ParametersAttributes>
+          <ParametersAttributes/>
         </ReturnValue>
         <SqlWhereExist val="N"/>
-        <TaskType val="B"/>
+        <TaskType val="O"/>
         <External val="N"/>
         <Offline val="N"/>
         <FormType val="N"/>
         <DotNetObjectExists val="N"/>
-        <LastModified _date="736023" _time="75145" date="29/02/2016" time="20:52:25"/>
+        <LastModified _date="736067" _time="71242" date="13/04/2016" time="19:47:22"/>
       </Header>
-      <SourceFileTimeStamp _date="736023" _time="85945" date="29/02/2016" time="23:52:25"/>
+      <SourceFileTimeStamp _date="736067" _time="82042" date="13/04/2016" time="22:47:22"/>
     </Program>
   </ProgramsRepositoryHeaders>
 

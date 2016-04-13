@@ -12,7 +12,7 @@
   <ProgramsRepository>
     <Programs>
       <Task MainProgram="N">
-        <Header Description="Model - Perfil - Editar" ISN_2="1" LastIsn="1" id="19">
+        <Header Description="Controller - Perfil - Editar" ISN_2="1" LastIsn="1" id="19">
           <ExecutionRight comp="-1"/>
           <Resident val="Y"/>
           <SQL val="N"/>
@@ -34,7 +34,7 @@
           <Offline val="N"/>
           <FormType val="N"/>
           <DotNetObjectExists val="N"/>
-          <LastModified _date="736023" _time="74686" date="29/02/2016" time="20:44:46"/>
+          <LastModified _date="736062" _time="71461" date="08/04/2016" time="19:51:01"/>
         </Header>
         <ItemIsn val="15"/>
         <Resource>

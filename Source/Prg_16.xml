@@ -12,7 +12,7 @@
   <ProgramsRepository>
     <Programs>
       <Task MainProgram="N">
-        <Header Description="Model - Exemplar - Excluir" ISN_2="1" LastIsn="1" id="16">
+        <Header Description="Controlle - Exemplar - Excluir" ISN_2="1" LastIsn="1" id="16">
           <ExecutionRight comp="-1"/>
           <Resident val="Y"/>
           <SQL val="N"/>
@@ -30,7 +30,7 @@
           <Offline val="N"/>
           <FormType val="N"/>
           <DotNetObjectExists val="N"/>
-          <LastModified _date="736023" _time="73710" date="29/02/2016" time="20:28:30"/>
+          <LastModified _date="736062" _time="71466" date="08/04/2016" time="19:51:06"/>
         </Header>
         <ItemIsn val="3"/>
         <Resource>
@@ -185,7 +185,7 @@
           <FormEntry id="1">
             <PropertyList model="FORM_GUI0">
               <_Comment id="218"/>
-              <FormName id="311" valUnicode="Model - Exemplar - Excluir"/>
+              <FormName id="311" valUnicode="Controlle - Exemplar - Excluir"/>
             </PropertyList>
           </FormEntry>
         </TaskForms>

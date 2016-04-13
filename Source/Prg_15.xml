@@ -12,7 +12,7 @@
   <ProgramsRepository>
     <Programs>
       <Task MainProgram="N">
-        <Header Description="Model - Exemplar - Editar" ISN_2="1" LastIsn="1" id="15">
+        <Header Description="Controller - Exemplar - Editar" ISN_2="1" LastIsn="1" id="15">
           <ExecutionRight comp="-1"/>
           <Resident val="Y"/>
           <SQL val="N"/>
@@ -33,7 +33,7 @@
           <Offline val="N"/>
           <FormType val="N"/>
           <DotNetObjectExists val="N"/>
-          <LastModified _date="736023" _time="73630" date="29/02/2016" time="20:27:10"/>
+          <LastModified _date="736062" _time="71470" date="08/04/2016" time="19:51:10"/>
         </Header>
         <ItemIsn val="12"/>
         <Resource>

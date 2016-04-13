@@ -12,18 +12,19 @@
   <ProgramsRepository>
     <Programs>
       <Task MainProgram="N">
-        <Header Description="Controller - Livros - Editar" ISN_2="1" LastIsn="1" id="11">
+        <Header Description="Controller - Multa - Editar" ISN_2="1" LastIsn="1" id="36">
           <ExecutionRight comp="-1"/>
           <Resident val="Y"/>
           <SQL val="N"/>
           <ReturnValue>
             <ReturnValueAttr/>
-            <TSK_PARAMS val="4"/>
-            <ParametersCount val="4"/>
+            <TSK_PARAMS val="5"/>
+            <ParametersCount val="5"/>
             <ParametersAttributes>
               <Attr MgAttr="N"/>
-              <Attr MgAttr="A"/>
               <Attr MgAttr="N"/>
+              <Attr MgAttr="D"/>
+              <Attr MgAttr="B"/>
               <Attr MgAttr="A"/>
             </ParametersAttributes>
           </ReturnValue>
@@ -33,12 +34,12 @@
           <Offline val="N"/>
           <FormType val="N"/>
           <DotNetObjectExists val="N"/>
-          <LastModified _date="736062" _time="71478" date="08/04/2016" time="19:51:18"/>
+          <LastModified _date="736066" _time="83035" date="12/04/2016" time="23:03:55"/>
         </Header>
-        <ItemIsn val="12"/>
+        <ItemIsn val="20"/>
         <Resource>
           <DB>
-            <DataObject comp="-1" obj="4"/>
+            <DataObject comp="-1" obj="5"/>
             <Access val="W"/>
             <Share val="W"/>
             <Open val="N"/>
@@ -57,36 +58,42 @@
                 <_FieldStyle id="276" val="1"/>
               </PropertyList>
             </Column>
-            <Column id="2" name="pTitulo">
-              <PropertyList model="FIELD">
-                <Model attr_obj="FIELD_ALPHA" id="1"/>
-                <Picture id="157" valUnicode="50"/>
-                <StoredAs id="173" val="1"/>
-                <Size id="174" val="50"/>
-                <_Flip id="194"/>
-              </PropertyList>
-            </Column>
-            <Column id="5" name="pFkAutor">
+            <Column id="2" name="pValor">
               <PropertyList model="FIELD">
                 <Model attr_obj="FIELD_NUMERIC" id="1"/>
-                <Picture id="157" valUnicode="10"/>
-                <_Dec id="181"/>
+                <Picture id="157" valUnicode="N10.2"/>
+                <_Dec id="181" val="2"/>
                 <_Whole id="182" val="10"/>
-                <_Negative id="192"/>
+                <_Negative id="192" val="Y"/>
                 <_FieldStyle id="276" val="1"/>
               </PropertyList>
             </Column>
-            <Column id="6" name="pISBN">
+            <Column id="5" name="pVencimento">
+              <PropertyList model="FIELD">
+                <Model attr_obj="FIELD_DATE" id="1"/>
+                <NullAllowed id="166" val="Y"/>
+                <NullDefault id="169" val="Y"/>
+                <_FieldStyle id="276" val="1"/>
+              </PropertyList>
+            </Column>
+            <Column id="6" name="pAbonado">
+              <PropertyList model="FIELD">
+                <Model attr_obj="FIELD_LOGICAL" id="1"/>
+                <Picture id="157" valUnicode="1"/>
+                <_FieldStyle id="276" val="1"/>
+              </PropertyList>
+            </Column>
+            <Column id="7" name="pObservacao">
               <PropertyList model="FIELD">
                 <Model attr_obj="FIELD_ALPHA" id="1"/>
-                <Picture id="157" valUnicode="13"/>
-                <StoredAs id="173" val="1"/>
-                <Size id="174" val="13"/>
+                <Picture id="157" valUnicode="200"/>
+                <Size id="174" val="200"/>
                 <_Flip id="194"/>
+                <_FieldStyle id="276" val="1"/>
               </PropertyList>
             </Column>
           </Columns>
-          <ColumnsLastIsn val="6"/>
+          <ColumnsLastIsn val="9"/>
         </Resource>
         <Information>
           <Key>
@@ -146,10 +153,11 @@
           </BOX>
         </Information>
         <INT_RECOMP_INFO>
+          <v>13</v>
+          <v>12</v>
           <v>11</v>
           <v>10</v>
-          <v>9</v>
-          <v>7</v>
+          <v>8</v>
         </INT_RECOMP_INFO>
         <TaskLogic>
           <LogicUnit id="1" propagate="78">
@@ -161,9 +169,9 @@
             <EngineDirective val="S"/>
             <ShowMessage val="Y"/>
             <Condition val="89"/>
-            <_TotalVariabls val="8"/>
-            <_TotalVirtuals val="4"/>
-            <PRM_LEN val="4"/>
+            <_TotalVariabls val="10"/>
+            <_TotalVirtuals val="5"/>
+            <PRM_LEN val="5"/>
             <Event>
               <EventType val="S"/>
               <PublicObject comp="-1"/>
@@ -182,6 +190,23 @@
                   <Type val="V"/>
                   <IsParameter val="Y"/>
                   <_RecomputeLength val="1"/>
+                  <_RecomputeIndex val="5"/>
+                  <_FormIndex val="6"/>
+                  <_ControlIndex val="6"/>
+                  <_OleSubformIdx val="6"/>
+                  <_TabbingOrderDspIndex val="6"/>
+                  <DIFF_UPDATE val="T"/>
+                  <Condition val="Y"/>
+                  <Modifier val="S"/>
+                  <Direction val="C"/>
+                </Select>
+              </LogicLine>
+              <LogicLine>
+                <Select FieldID="2" FlowIsn="4" id="2">
+                  <Column val="2"/>
+                  <Type val="V"/>
+                  <IsParameter val="Y"/>
+                  <_RecomputeLength val="1"/>
                   <_RecomputeIndex val="4"/>
                   <_FormIndex val="5"/>
                   <_ControlIndex val="5"/>
@@ -194,8 +219,8 @@
                 </Select>
               </LogicLine>
               <LogicLine>
-                <Select FieldID="2" FlowIsn="4" id="2">
-                  <Column val="2"/>
+                <Select FieldID="11" FlowIsn="19" id="11">
+                  <Column val="3"/>
                   <Type val="V"/>
                   <IsParameter val="Y"/>
                   <_RecomputeLength val="1"/>
@@ -211,8 +236,8 @@
                 </Select>
               </LogicLine>
               <LogicLine>
-                <Select FieldID="11" FlowIsn="19" id="11">
-                  <Column val="3"/>
+                <Select FieldID="12" FlowIsn="20" id="12">
+                  <Column val="4"/>
                   <Type val="V"/>
                   <IsParameter val="Y"/>
                   <_RecomputeLength val="1"/>
@@ -228,8 +253,8 @@
                 </Select>
               </LogicLine>
               <LogicLine>
-                <Select FieldID="12" FlowIsn="20" id="12">
-                  <Column val="4"/>
+                <Select FieldID="15" FlowIsn="36" id="15">
+                  <Column val="5"/>
                   <Type val="V"/>
                   <IsParameter val="Y"/>
                   <_RecomputeLength val="1"/>
@@ -251,8 +276,8 @@
                 </Remark>
               </LogicLine>
               <LogicLine>
-                <LNK Direction="A" EVL_CND="R" FlowIsn="5" Key="1" Mode="W" SortType="12" VIEW="5" VIEWS="4">
-                  <DB comp="-1" obj="4"/>
+                <LNK Direction="A" EVL_CND="R" FlowIsn="5" Key="1" Mode="W" SortType="14" VIEW="6" VIEWS="5">
+                  <DB comp="-1" obj="5"/>
                   <Expanded val="1"/>
                   <Condition val="Y"/>
                 </LNK>
@@ -327,6 +352,23 @@
                 </Select>
               </LogicLine>
               <LogicLine>
+                <Select FieldID="13" FlowIsn="34" id="13">
+                  <ASS val="8"/>
+                  <Column val="5"/>
+                  <Type val="R"/>
+                  <IsParameter val="N"/>
+                  <_RecomputeIndex val="1"/>
+                  <_FormIndex val="1"/>
+                  <_ControlIndex val="1"/>
+                  <_OleSubformIdx val="1"/>
+                  <_TabbingOrderDspIndex val="1"/>
+                  <DIFF_UPDATE val="T"/>
+                  <Condition val="N"/>
+                  <Modifier val="S"/>
+                  <Direction val="C"/>
+                </Select>
+              </LogicLine>
+              <LogicLine>
                 <END_LINK FlowIsn="6"/>
               </LogicLine>
               <LogicLine>
@@ -386,6 +428,17 @@
                 </Update>
               </LogicLine>
               <LogicLine>
+                <Update FlowIsn="51">
+                  <FieldID val="13"/>
+                  <WithValue val="8"/>
+                  <Incremental val="N"/>
+                  <ForcedUpdate val="Y"/>
+                  <Condition val="Y"/>
+                  <Modifier val="B"/>
+                  <Direction val="C"/>
+                </Update>
+              </LogicLine>
+              <LogicLine>
                 <Remark FlowIsn="23">
                   <Type val="2"/>
                   <Text val=" "/>
@@ -437,11 +490,11 @@
           </Expression>
           <Expression id="2">
             <ExpSyntax val="{0,2}"/>
-            <ExpAttribute val="A"/>
+            <ExpAttribute val="N"/>
           </Expression>
           <Expression id="10">
-            <ExpSyntax val="buscaUltimoID('{1,-1}'DSOURCE)"/>
-            <ExpAttribute val="*"/>
+            <ExpSyntax val="buscaUltimoID('{5,-1}'DSOURCE)"/>
+            <ExpAttribute val="N"/>
           </Expression>
           <Expression id="8">
             <ExpSyntax val="{0,3}"/>
@@ -453,10 +506,14 @@
           </Expression>
           <Expression id="11">
             <ExpSyntax val="{0,11}"/>
-            <ExpAttribute val="N"/>
+            <ExpAttribute val="D"/>
           </Expression>
           <Expression id="12">
             <ExpSyntax val="{0,12}"/>
+            <ExpAttribute val="B"/>
+          </Expression>
+          <Expression id="13">
+            <ExpSyntax val="{0,15}"/>
             <ExpAttribute val="A"/>
           </Expression>
         </Expressions>

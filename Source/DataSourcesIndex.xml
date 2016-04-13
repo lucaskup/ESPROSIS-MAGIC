@@ -20,11 +20,11 @@
  
 <DataObject PhysicalName="AUTOR" Resident="N" data_source="Biblioteca" id="1" name="AUTOR" offset="210" length="2747"/> 
 <DataObject PhysicalName="LIVRO" Resident="N" data_source="Biblioteca" id="4" name="LIVRO" offset="2958" length="4843"/> 
-<DataObject PhysicalName="EXEMPLAR" Resident="N" data_source="Biblioteca" id="3" name="EXEMPLAR" offset="7802" length="5141"/> 
-<DataObject PhysicalName="EMPRESTIMO" Resident="N" data_source="Biblioteca" id="9" name="EMPRESTIMO" offset="12944" length="8124"/> 
-<DataObject PhysicalName="MULTA" Resident="N" data_source="Biblioteca" id="5" name="MULTA" offset="21069" length="5279"/> 
-<DataObject PhysicalName="RESERVA" Resident="N" data_source="Biblioteca" id="7" name="RESERVA" offset="26349" length="5362"/> 
-<DataObject PhysicalName="PERFIL" Resident="N" data_source="Biblioteca" id="6" name="PERFIL" offset="31712" length="5821"/> 
-<DataObject PhysicalName="USUARIO" Resident="N" data_source="Biblioteca" id="8" name="USUARIO" offset="37534" length="6355"/>  </DataObjects>
+<DataObject PhysicalName="EXEMPLAR" Resident="N" data_source="Biblioteca" id="3" name="EXEMPLAR" offset="7802" length="5148"/> 
+<DataObject PhysicalName="EMPRESTIMO" Resident="N" data_source="Biblioteca" id="9" name="EMPRESTIMO" offset="12951" length="8204"/> 
+<DataObject PhysicalName="MULTA" Resident="N" data_source="Biblioteca" id="5" name="MULTA" offset="21156" length="5279"/> 
+<DataObject PhysicalName="RESERVA" Resident="N" data_source="Biblioteca" id="7" name="RESERVA" offset="26436" length="5362"/> 
+<DataObject PhysicalName="PERFIL" Resident="N" data_source="Biblioteca" id="6" name="PERFIL" offset="31799" length="5821"/> 
+<DataObject PhysicalName="USUARIO" Resident="N" data_source="Biblioteca" id="8" name="USUARIO" offset="37621" length="6435"/>  </DataObjects>
  </DataSourceRepository>
- <LastModified val="30503753-181624717"/>  </Application>
+ <LastModified val="30512220113739550"/>  </Application>

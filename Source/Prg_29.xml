@@ -12,17 +12,13 @@
   <ProgramsRepository>
     <Programs>
       <Task MainProgram="N">
-        <Header Description="Controller - Livros - Excluir" ISN_2="1" LastIsn="1" id="12">
+        <Header Description="Principal" ISN_2="1" LastIsn="1" id="29">
           <ExecutionRight comp="-1"/>
-          <Resident val="Y"/>
+          <Resident val="N"/>
           <SQL val="N"/>
           <ReturnValue>
             <ReturnValueAttr/>
-            <TSK_PARAMS val="1"/>
-            <ParametersCount val="1"/>
-            <ParametersAttributes>
-              <Attr MgAttr="N"/>
-            </ParametersAttributes>
+            <ParametersAttributes/>
           </ReturnValue>
           <SqlWhereExist val="N"/>
           <TaskType val="B"/>
@@ -30,58 +26,36 @@
           <Offline val="N"/>
           <FormType val="N"/>
           <DotNetObjectExists val="N"/>
-          <LastModified _date="736062" _time="71474" date="08/04/2016" time="19:51:14"/>
+          <LastModified _date="736067" _time="71191" date="13/04/2016" time="19:46:31"/>
         </Header>
-        <ItemIsn val="3"/>
         <Resource>
-          <DB>
-            <DataObject comp="-1" obj="4"/>
-            <Access val="W"/>
-            <Share val="W"/>
-            <Open val="N"/>
-            <Cache val="Y"/>
-            <IdentifyRowModifications val="84"/>
-          </DB>
-          <Columns>
-            <Column id="2" name="idExcluir">
-              <PropertyList model="FIELD">
-                <Model attr_obj="FIELD_NUMERIC" id="1"/>
-                <Picture id="157" valUnicode="10"/>
-                <_Dec id="181"/>
-                <_Whole id="182" val="10"/>
-                <_Negative id="192"/>
-                <_FieldStyle id="276" val="1"/>
-              </PropertyList>
-            </Column>
-          </Columns>
-          <ColumnsLastIsn val="3"/>
+          <Columns/>
         </Resource>
         <Information>
           <Key>
-            <Column val="1"/>
             <Mode val="N"/>
           </Key>
-          <DB comp="-1" obj="4"/>
+          <DB comp="-1"/>
           <Sort>
             <CLS val="A"/>
           </Sort>
           <ForceRecordDelete DEL="N"/>
           <EndTaskCondition val="Y"/>
           <EvaluateEndCondition val="A"/>
-          <InitialMode val="D"/>
+          <InitialMode val="E"/>
           <Locate Direction="A"/>
           <Range Direction="A"/>
-          <VarRange LastIsn="1"/>
+          <VarRange/>
           <TaskProperties>
             <SelectionTable val="N"/>
             <ConfirmUpdate CNFU="N"/>
             <ConfirmCancel val="N"/>
             <ErrorStrategy val="A"/>
-            <LockingStrategy val="I"/>
+            <LockingStrategy val="M"/>
             <CacheStrategy val="T"/>
             <ForceRecordSuffix val="N"/>
             <TransactionMode val="P"/>
-            <TransactionBegin val="T"/>
+            <TransactionBegin val="N"/>
             <PreloadView val="N"/>
             <AllowEmptyDataview val="N"/>
             <KeepCreatedContext val="N"/>
@@ -98,7 +72,7 @@
             <AllowSorting val="Y"/>
             <AllowIOFiles val="Y"/>
             <RecordCycle val="Y"/>
-            <AllowEvents val="N"/>
+            <AllowEvents val="Y"/>
             <AllowIndexOptimization val="Y"/>
             <AllowLocationInQuery val="Y"/>
             <AllowPrintingData val="N"/>
@@ -124,59 +98,47 @@
             <EngineDirective val="S"/>
             <ShowMessage val="Y"/>
             <Condition val="89"/>
-            <_TotalVariabls val="2"/>
-            <_TotalVirtuals val="1"/>
-            <PRM_LEN val="1"/>
             <Event>
               <EventType val="S"/>
               <PublicObject comp="-1"/>
             </Event>
             <LogicLines>
               <LogicLine>
-                <DATAVIEW_SRC FlowIsn="1" IDX="1" Type="M">
+                <DATAVIEW_SRC FlowIsn="1" Type="M">
                   <Condition val="N"/>
                   <Modifier val="B"/>
                   <Direction val="C"/>
                 </DATAVIEW_SRC>
               </LogicLine>
+            </LogicLines>
+          </LogicUnit>
+          <LogicUnit id="3" propagate="78">
+            <Level val="T"/>
+            <Type val="P"/>
+            <_DspTemplate val="0"/>
+            <_HeaderPosition val="2"/>
+            <Scope val="S"/>
+            <EngineDirective val="S"/>
+            <ShowMessage val="Y"/>
+            <Condition val="89"/>
+            <Event>
+              <EventType val="S"/>
+              <PublicObject comp="-1"/>
+            </Event>
+            <Expanded val="1"/>
+            <LogicLines>
               <LogicLine>
-                <Select FieldID="2" FlowIsn="4" id="2">
-                  <Column val="1"/>
-                  <Type val="V"/>
-                  <IsParameter val="Y"/>
-                  <_RecomputeIndex val="1"/>
-                  <_FormIndex val="1"/>
-                  <_ControlIndex val="1"/>
-                  <_OleSubformIdx val="1"/>
-                  <_TabbingOrderDspIndex val="1"/>
-                  <DIFF_UPDATE val="T"/>
+                <CallTask FlowIsn="3">
+                  <OperationType val="P"/>
+                  <TaskID comp="-1" obj="41"/>
+                  <Lock val="N"/>
+                  <Wait val="Y"/>
+                  <SyncData val="N"/>
+                  <RetainFocus val="N"/>
                   <Condition val="Y"/>
                   <Modifier val="S"/>
                   <Direction val="C"/>
-                </Select>
-              </LogicLine>
-              <LogicLine>
-                <Select FieldID="3" FlowIsn="5" id="3">
-                  <Column val="1"/>
-                  <Type val="R"/>
-                  <IsParameter val="N"/>
-                  <Range MAX="1" MIN="1"/>
-                  <_RecomputeIndex val="1"/>
-                  <_FormIndex val="1"/>
-                  <_ControlIndex val="1"/>
-                  <_OleSubformIdx val="1"/>
-                  <_TabbingOrderDspIndex val="1"/>
-                  <DIFF_UPDATE val="T"/>
-                  <Condition val="Y"/>
-                  <Modifier val="S"/>
-                  <Direction val="C"/>
-                </Select>
-              </LogicLine>
-              <LogicLine>
-                <Remark FlowIsn="3">
-                  <Type val="0"/>
-                  <Text val=" "/>
-                </Remark>
+                </CallTask>
               </LogicLine>
             </LogicLines>
           </LogicUnit>
@@ -185,17 +147,10 @@
           <FormEntry id="1">
             <PropertyList model="FORM_GUI0">
               <_Comment id="218"/>
-              <FormName id="311" valUnicode="Controller - Livros - Excluir"/>
+              <FormName id="311" valUnicode="Principal"/>
             </PropertyList>
           </FormEntry>
         </TaskForms>
-        <Expressions>
-          <Expression id="1">
-            <ExpSyntax val="{0,2}"/>
-            <ExpAttribute val="N"/>
-          </Expression>
-        </Expressions>
-        <VarRangeInfo Mode="E" VarRangeVeeIsn="3" id="1"/>
       </Task>
     </Programs>
   </ProgramsRepository>
