@@ -26,7 +26,7 @@
           <Offline val="N"/>
           <FormType val="N"/>
           <DotNetObjectExists val="N"/>
-          <LastModified _date="736065" _time="77700" date="11/04/2016" time="21:35:00"/>
+          <LastModified _date="736068" _time="79803" date="14/04/2016" time="22:10:03"/>
         </Header>
         <ItemIsn val="8"/>
         <Resource>
@@ -352,12 +352,37 @@
                 </CallTask>
               </LogicLine>
               <LogicLine>
+                <BLOCK EndBlock="18" EndBlockSegment="16" FlowIsn="20" Type="I">
+                  <Condition Exp="5"/>
+                  <Modifier val="B"/>
+                  <Direction val="C"/>
+                </BLOCK>
+              </LogicLine>
+              <LogicLine>
                 <STP Buttons="O" DefaultButton="1" ERR_LOG_DEF_CHG="N" Exp="4" FlowIsn="18" IMG_DEF_CHG="N" Image="E" Mode="W" TTL_DEF_CHG="N" TitleTxt="Warning" VR_DISP="B">
                   <AppendToErrorLog val="N"/>
                   <Condition val="Y"/>
                   <Modifier val="B"/>
                   <Direction val="C"/>
                 </STP>
+              </LogicLine>
+              <LogicLine>
+                <BLOCK EndBlock="18" EndBlockSegment="18" FlowIsn="21" Type="E">
+                  <Condition val="Y"/>
+                  <Modifier val="B"/>
+                  <Direction val="C"/>
+                </BLOCK>
+              </LogicLine>
+              <LogicLine>
+                <STP Buttons="O" DefaultButton="1" ERR_LOG_DEF_CHG="N" FlowIsn="23" IMG_DEF_CHG="N" Image="E" Mode="W" TTL_DEF_CHG="N" TXT="Empréstimo efetuado com sucesso" TitleTxt="Warning" VR_DISP="B">
+                  <AppendToErrorLog val="N"/>
+                  <Condition val="Y"/>
+                  <Modifier val="B"/>
+                  <Direction val="C"/>
+                </STP>
+              </LogicLine>
+              <LogicLine>
+                <END_BLK FlowIsn="22"/>
               </LogicLine>
             </LogicLines>
           </LogicUnit>
@@ -450,6 +475,10 @@
           <Expression id="4">
             <ExpSyntax val="Trim({0,8})"/>
             <ExpAttribute val="A"/>
+          </Expression>
+          <Expression id="5">
+            <ExpSyntax val="Trim({0,8})&lt;>''"/>
+            <ExpAttribute val="B"/>
           </Expression>
         </Expressions>
       </Task>

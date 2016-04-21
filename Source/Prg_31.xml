@@ -31,7 +31,7 @@
           <Offline val="N"/>
           <FormType val="N"/>
           <DotNetObjectExists val="N"/>
-          <LastModified _date="736066" _time="82751" date="12/04/2016" time="22:59:11"/>
+          <LastModified _date="736071" _time="83573" date="17/04/2016" time="23:12:53"/>
         </Header>
         <ItemIsn val="19"/>
         <Resource>
@@ -1634,7 +1634,7 @@
             <External val="N"/>
             <FormType val="N"/>
             <DotNetObjectExists val="N"/>
-            <LastModified _date="736063" _time="49665" date="09/04/2016" time="13:47:45"/>
+            <LastModified _date="736071" _time="83467" date="17/04/2016" time="23:11:07"/>
           </Header>
           <ItemIsn val="5"/>
           <Resource>
@@ -1677,8 +1677,8 @@
               <CLS val="A"/>
             </Sort>
             <ForceRecordDelete DEL="N"/>
-            <EndTaskCondition val="Y"/>
-            <EvaluateEndCondition val="A"/>
+            <EndTaskCondition val="N"/>
+            <EvaluateEndCondition val="B"/>
             <InitialMode val="M"/>
             <Locate Direction="A"/>
             <Range Direction="A"/>
@@ -2238,7 +2238,7 @@
             <External val="N"/>
             <FormType val="N"/>
             <DotNetObjectExists val="N"/>
-            <LastModified _date="736065" _time="76322" date="11/04/2016" time="21:12:02"/>
+            <LastModified _date="736071" _time="83573" date="17/04/2016" time="23:12:53"/>
           </Header>
           <ItemIsn val="10"/>
           <Resource>
@@ -2286,8 +2286,8 @@
               <CLS val="A"/>
             </Sort>
             <ForceRecordDelete DEL="N"/>
-            <EndTaskCondition val="Y"/>
-            <EvaluateEndCondition val="A"/>
+            <EndTaskCondition val="N"/>
+            <EvaluateEndCondition val="B"/>
             <InitialMode val="M"/>
             <Locate Direction="A"/>
             <Range Direction="A"/>
@@ -2457,7 +2457,6 @@
                     <Column val="4"/>
                     <Type val="R"/>
                     <IsParameter val="N"/>
-                    <Locate MAX="2" MIN="2"/>
                     <_RecomputeIndex val="1"/>
                     <_FormIndex val="1"/>
                     <_ControlIndex val="1"/>

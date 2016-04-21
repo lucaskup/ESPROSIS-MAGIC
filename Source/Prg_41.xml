@@ -26,7 +26,7 @@
           <Offline val="N"/>
           <FormType val="N"/>
           <DotNetObjectExists val="N"/>
-          <LastModified _date="736067" _time="71242" date="13/04/2016" time="19:47:22"/>
+          <LastModified _date="736074" _time="72668" date="20/04/2016" time="20:11:08"/>
         </Header>
         <ItemIsn val="10"/>
         <Resource>
@@ -34,117 +34,117 @@
             <Column id="1" name="pbAutor">
               <PropertyList model="FIELD">
                 <Model attr_obj="FIELD_ALPHA" id="1"/>
-                <Picture id="157" valUnicode="10A"/>
+                <Picture id="157" valUnicode="100A"/>
                 <GuiDisplay id="158">
                   <PropertyList model="CTRL_GUI0_PUSH_BUTTON"/>
                 </GuiDisplay>
-                <DefaultValue id="170" val="&amp;Autor"/>
+                <DefaultValue id="170" val="img\autor.png"/>
                 <StoredAs id="173" val="1"/>
-                <Size id="174" val="10"/>
+                <Size id="174" val="100"/>
                 <_Flip id="194"/>
               </PropertyList>
             </Column>
             <Column id="2" name="pbLivro">
               <PropertyList model="FIELD">
                 <Model attr_obj="FIELD_ALPHA" id="1"/>
-                <Picture id="157" valUnicode="10A"/>
+                <Picture id="157" valUnicode="100A"/>
                 <GuiDisplay id="158">
                   <PropertyList model="CTRL_GUI0_PUSH_BUTTON"/>
                 </GuiDisplay>
-                <DefaultValue id="170" val="&amp;Livro"/>
+                <DefaultValue id="170" val="img\livro.png"/>
                 <StoredAs id="173" val="1"/>
-                <Size id="174" val="10"/>
+                <Size id="174" val="100"/>
                 <_Flip id="194"/>
               </PropertyList>
             </Column>
             <Column id="3" name="pbExemplar">
               <PropertyList model="FIELD">
                 <Model attr_obj="FIELD_ALPHA" id="1"/>
-                <Picture id="157" valUnicode="10A"/>
+                <Picture id="157" valUnicode="100A"/>
                 <GuiDisplay id="158">
                   <PropertyList model="CTRL_GUI0_PUSH_BUTTON"/>
                 </GuiDisplay>
-                <DefaultValue id="170" val="&amp;Exemplar"/>
+                <DefaultValue id="170" val="img\exemplar.png"/>
                 <StoredAs id="173" val="1"/>
-                <Size id="174" val="10"/>
+                <Size id="174" val="100"/>
                 <_Flip id="194"/>
               </PropertyList>
             </Column>
             <Column id="4" name="pbPerfil">
               <PropertyList model="FIELD">
                 <Model attr_obj="FIELD_ALPHA" id="1"/>
-                <Picture id="157" valUnicode="10A"/>
+                <Picture id="157" valUnicode="100A"/>
                 <GuiDisplay id="158">
                   <PropertyList model="CTRL_GUI0_PUSH_BUTTON"/>
                 </GuiDisplay>
-                <DefaultValue id="170" val="&amp;Perfil"/>
+                <DefaultValue id="170" val="img\perfil.png"/>
                 <StoredAs id="173" val="1"/>
-                <Size id="174" val="10"/>
+                <Size id="174" val="100"/>
                 <_Flip id="194"/>
               </PropertyList>
             </Column>
             <Column id="5" name="pbUsuario">
               <PropertyList model="FIELD">
                 <Model attr_obj="FIELD_ALPHA" id="1"/>
-                <Picture id="157" valUnicode="10A"/>
+                <Picture id="157" valUnicode="100A"/>
                 <GuiDisplay id="158">
                   <PropertyList model="CTRL_GUI0_PUSH_BUTTON"/>
                 </GuiDisplay>
-                <DefaultValue id="170" val="&amp;Usuario"/>
+                <DefaultValue id="170" val="img\usuario.png"/>
                 <StoredAs id="173" val="1"/>
-                <Size id="174" val="10"/>
+                <Size id="174" val="100"/>
                 <_Flip id="194"/>
               </PropertyList>
             </Column>
             <Column id="6" name="pbLogin">
               <PropertyList model="FIELD">
                 <Model attr_obj="FIELD_ALPHA" id="1"/>
-                <Picture id="157" valUnicode="10A"/>
+                <Picture id="157" valUnicode="100A"/>
                 <GuiDisplay id="158">
                   <PropertyList model="CTRL_GUI0_PUSH_BUTTON"/>
                 </GuiDisplay>
-                <DefaultValue id="170" val="&amp;Login"/>
+                <DefaultValue id="170" val="img\login.png"/>
                 <StoredAs id="173" val="1"/>
-                <Size id="174" val="10"/>
+                <Size id="174" val="100"/>
                 <_Flip id="194"/>
               </PropertyList>
             </Column>
             <Column id="7" name="pbEmprestimo">
               <PropertyList model="FIELD">
                 <Model attr_obj="FIELD_ALPHA" id="1"/>
-                <Picture id="157" valUnicode="12A"/>
+                <Picture id="157" valUnicode="100A"/>
                 <GuiDisplay id="158">
                   <PropertyList model="CTRL_GUI0_PUSH_BUTTON"/>
                 </GuiDisplay>
-                <DefaultValue id="170" val="E&amp;mprestimo"/>
+                <DefaultValue id="170" val="img\emprestimo.png"/>
                 <StoredAs id="173" val="1"/>
-                <Size id="174" val="12"/>
+                <Size id="174" val="100"/>
                 <_Flip id="194"/>
               </PropertyList>
             </Column>
             <Column id="8" name="pbDevolucao">
               <PropertyList model="FIELD">
                 <Model attr_obj="FIELD_ALPHA" id="1"/>
-                <Picture id="157" valUnicode="10A"/>
+                <Picture id="157" valUnicode="100A"/>
                 <GuiDisplay id="158">
                   <PropertyList model="CTRL_GUI0_PUSH_BUTTON"/>
                 </GuiDisplay>
-                <DefaultValue id="170" val="&amp;Devolução"/>
+                <DefaultValue id="170" val="img\devolucao.png"/>
                 <StoredAs id="173" val="1"/>
-                <Size id="174" val="10"/>
+                <Size id="174" val="100"/>
                 <_Flip id="194"/>
               </PropertyList>
             </Column>
             <Column id="9" name="pbMulta">
               <PropertyList model="FIELD">
                 <Model attr_obj="FIELD_ALPHA" id="1"/>
-                <Picture id="157" valUnicode="10A"/>
+                <Picture id="157" valUnicode="100A"/>
                 <GuiDisplay id="158">
                   <PropertyList model="CTRL_GUI0_PUSH_BUTTON"/>
                 </GuiDisplay>
-                <DefaultValue id="170" val="Multa"/>
+                <DefaultValue id="170" val="img\multa.png"/>
                 <StoredAs id="173" val="1"/>
-                <Size id="174" val="10"/>
+                <Size id="174" val="100"/>
                 <_Flip id="194"/>
               </PropertyList>
             </Column>
@@ -242,7 +242,7 @@
                   <_ControlIndex val="1"/>
                   <_OleSubformIdx val="1"/>
                   <_TabbingOrderDspIndex val="1"/>
-                  <_DitIndexForToolkit val="3"/>
+                  <_DitIndexForToolkit val="1"/>
                   <DIFF_UPDATE val="T"/>
                   <Condition val="Y"/>
                   <Modifier val="S"/>
@@ -259,7 +259,7 @@
                   <_ControlIndex val="1"/>
                   <_OleSubformIdx val="1"/>
                   <_TabbingOrderDspIndex val="1"/>
-                  <_DitIndexForToolkit val="4"/>
+                  <_DitIndexForToolkit val="2"/>
                   <DIFF_UPDATE val="T"/>
                   <Condition val="Y"/>
                   <Modifier val="S"/>
@@ -276,7 +276,7 @@
                   <_ControlIndex val="1"/>
                   <_OleSubformIdx val="1"/>
                   <_TabbingOrderDspIndex val="1"/>
-                  <_DitIndexForToolkit val="5"/>
+                  <_DitIndexForToolkit val="3"/>
                   <DIFF_UPDATE val="T"/>
                   <Condition val="Y"/>
                   <Modifier val="S"/>
@@ -293,7 +293,7 @@
                   <_ControlIndex val="1"/>
                   <_OleSubformIdx val="1"/>
                   <_TabbingOrderDspIndex val="1"/>
-                  <_DitIndexForToolkit val="6"/>
+                  <_DitIndexForToolkit val="4"/>
                   <DIFF_UPDATE val="T"/>
                   <Condition val="Y"/>
                   <Modifier val="S"/>
@@ -310,7 +310,7 @@
                   <_ControlIndex val="1"/>
                   <_OleSubformIdx val="1"/>
                   <_TabbingOrderDspIndex val="1"/>
-                  <_DitIndexForToolkit val="7"/>
+                  <_DitIndexForToolkit val="5"/>
                   <DIFF_UPDATE val="T"/>
                   <Condition val="Y"/>
                   <Modifier val="S"/>
@@ -327,7 +327,7 @@
                   <_ControlIndex val="1"/>
                   <_OleSubformIdx val="1"/>
                   <_TabbingOrderDspIndex val="1"/>
-                  <_DitIndexForToolkit val="8"/>
+                  <_DitIndexForToolkit val="6"/>
                   <DIFF_UPDATE val="T"/>
                   <Condition val="Y"/>
                   <Modifier val="S"/>
@@ -398,12 +398,20 @@
             <Condition val="89"/>
             <Event>
               <EventType val="I"/>
-              <InternalEventID val="34"/>
+              <InternalEventID val="302"/>
               <PublicObject comp="-1"/>
             </Event>
             <TXT val="pbAutor"/>
             <Expanded val="1"/>
             <LogicLines>
+              <LogicLine>
+                <Evaluate FlowIsn="42">
+                  <Expression val="14"/>
+                  <Condition val="Y"/>
+                  <Modifier val="B"/>
+                  <Direction val="C"/>
+                </Evaluate>
+              </LogicLine>
               <LogicLine>
                 <CallTask FlowIsn="12">
                   <OperationType val="P"/>
@@ -430,12 +438,20 @@
             <Condition val="89"/>
             <Event>
               <EventType val="I"/>
-              <InternalEventID val="34"/>
+              <InternalEventID val="302"/>
               <PublicObject comp="-1"/>
             </Event>
             <TXT val="pbLivro"/>
             <Expanded val="1"/>
             <LogicLines>
+              <LogicLine>
+                <Evaluate FlowIsn="43">
+                  <Expression val="14"/>
+                  <Condition val="Y"/>
+                  <Modifier val="B"/>
+                  <Direction val="C"/>
+                </Evaluate>
+              </LogicLine>
               <LogicLine>
                 <CallTask FlowIsn="13">
                   <OperationType val="P"/>
@@ -462,12 +478,20 @@
             <Condition val="89"/>
             <Event>
               <EventType val="I"/>
-              <InternalEventID val="34"/>
+              <InternalEventID val="302"/>
               <PublicObject comp="-1"/>
             </Event>
             <TXT val="pbExemplar"/>
             <Expanded val="1"/>
             <LogicLines>
+              <LogicLine>
+                <Evaluate FlowIsn="44">
+                  <Expression val="14"/>
+                  <Condition val="Y"/>
+                  <Modifier val="B"/>
+                  <Direction val="C"/>
+                </Evaluate>
+              </LogicLine>
               <LogicLine>
                 <CallTask FlowIsn="14">
                   <OperationType val="P"/>
@@ -494,12 +518,20 @@
             <Condition val="89"/>
             <Event>
               <EventType val="I"/>
-              <InternalEventID val="34"/>
+              <InternalEventID val="302"/>
               <PublicObject comp="-1"/>
             </Event>
             <TXT val="pbPerfil"/>
             <Expanded val="1"/>
             <LogicLines>
+              <LogicLine>
+                <Evaluate FlowIsn="45">
+                  <Expression val="14"/>
+                  <Condition val="Y"/>
+                  <Modifier val="B"/>
+                  <Direction val="C"/>
+                </Evaluate>
+              </LogicLine>
               <LogicLine>
                 <CallTask FlowIsn="15">
                   <OperationType val="P"/>
@@ -526,12 +558,20 @@
             <Condition val="89"/>
             <Event>
               <EventType val="I"/>
-              <InternalEventID val="34"/>
+              <InternalEventID val="302"/>
               <PublicObject comp="-1"/>
             </Event>
             <TXT val="pbUsuario"/>
             <Expanded val="1"/>
             <LogicLines>
+              <LogicLine>
+                <Evaluate FlowIsn="46">
+                  <Expression val="14"/>
+                  <Condition val="Y"/>
+                  <Modifier val="B"/>
+                  <Direction val="C"/>
+                </Evaluate>
+              </LogicLine>
               <LogicLine>
                 <CallTask FlowIsn="16">
                   <OperationType val="P"/>
@@ -558,12 +598,20 @@
             <Condition val="89"/>
             <Event>
               <EventType val="I"/>
-              <InternalEventID val="34"/>
+              <InternalEventID val="302"/>
               <PublicObject comp="-1"/>
             </Event>
             <TXT val="pbLogin"/>
             <Expanded val="1"/>
             <LogicLines>
+              <LogicLine>
+                <Evaluate FlowIsn="47">
+                  <Expression val="14"/>
+                  <Condition val="Y"/>
+                  <Modifier val="B"/>
+                  <Direction val="C"/>
+                </Evaluate>
+              </LogicLine>
               <LogicLine>
                 <CallTask FlowIsn="17">
                   <OperationType val="P"/>
@@ -611,12 +659,20 @@
             <Condition val="89"/>
             <Event>
               <EventType val="I"/>
-              <InternalEventID val="34"/>
+              <InternalEventID val="302"/>
               <PublicObject comp="-1"/>
             </Event>
             <TXT val="pbEmprestimo"/>
             <Expanded val="1"/>
             <LogicLines>
+              <LogicLine>
+                <Evaluate FlowIsn="48">
+                  <Expression val="14"/>
+                  <Condition val="Y"/>
+                  <Modifier val="B"/>
+                  <Direction val="C"/>
+                </Evaluate>
+              </LogicLine>
               <LogicLine>
                 <CallTask FlowIsn="21">
                   <OperationType val="P"/>
@@ -643,12 +699,20 @@
             <Condition val="89"/>
             <Event>
               <EventType val="I"/>
-              <InternalEventID val="34"/>
+              <InternalEventID val="302"/>
               <PublicObject comp="-1"/>
             </Event>
             <TXT val="pbDevolucao"/>
             <Expanded val="1"/>
             <LogicLines>
+              <LogicLine>
+                <Evaluate FlowIsn="49">
+                  <Expression val="14"/>
+                  <Condition val="Y"/>
+                  <Modifier val="B"/>
+                  <Direction val="C"/>
+                </Evaluate>
+              </LogicLine>
               <LogicLine>
                 <CallTask FlowIsn="22">
                   <OperationType val="P"/>
@@ -675,12 +739,20 @@
             <Condition val="89"/>
             <Event>
               <EventType val="I"/>
-              <InternalEventID val="34"/>
+              <InternalEventID val="302"/>
               <PublicObject comp="-1"/>
             </Event>
             <TXT val="pbMulta"/>
             <Expanded val="1"/>
             <LogicLines>
+              <LogicLine>
+                <Evaluate FlowIsn="50">
+                  <Expression val="14"/>
+                  <Condition val="Y"/>
+                  <Modifier val="B"/>
+                  <Direction val="C"/>
+                </Evaluate>
+              </LogicLine>
               <LogicLine>
                 <CallTask FlowIsn="23">
                   <OperationType val="P"/>
@@ -696,21 +768,576 @@
               </LogicLine>
             </LogicLines>
           </LogicUnit>
+          <LogicUnit id="21" propagate="78">
+            <Level val="H"/>
+            <Type val="U"/>
+            <_DspTemplate val="-1"/>
+            <_HeaderPosition val="22"/>
+            <Scope val="T"/>
+            <EngineDirective val="S"/>
+            <ShowMessage val="Y"/>
+            <Condition val="89"/>
+            <Event>
+              <EventType val="I"/>
+              <InternalEventID val="304"/>
+              <PublicObject comp="-1"/>
+            </Event>
+            <TXT val="pbAutor"/>
+            <LogicLines>
+              <LogicLine>
+                <Evaluate FlowIsn="24">
+                  <Expression val="13"/>
+                  <Condition val="Y"/>
+                  <Modifier val="B"/>
+                  <Direction val="C"/>
+                </Evaluate>
+              </LogicLine>
+            </LogicLines>
+          </LogicUnit>
+          <LogicUnit id="23" propagate="78">
+            <Level val="H"/>
+            <Type val="U"/>
+            <_DspTemplate val="-1"/>
+            <_HeaderPosition val="23"/>
+            <Scope val="T"/>
+            <EngineDirective val="S"/>
+            <ShowMessage val="Y"/>
+            <Condition val="89"/>
+            <Event>
+              <EventType val="I"/>
+              <InternalEventID val="303"/>
+              <PublicObject comp="-1"/>
+            </Event>
+            <TXT val="pbAutor"/>
+            <LogicLines>
+              <LogicLine>
+                <Evaluate FlowIsn="25">
+                  <Expression val="14"/>
+                  <Condition val="Y"/>
+                  <Modifier val="B"/>
+                  <Direction val="C"/>
+                </Evaluate>
+              </LogicLine>
+            </LogicLines>
+          </LogicUnit>
+          <LogicUnit id="26" propagate="78">
+            <Level val="H"/>
+            <Type val="U"/>
+            <_DspTemplate val="-1"/>
+            <_HeaderPosition val="24"/>
+            <Scope val="T"/>
+            <EngineDirective val="S"/>
+            <ShowMessage val="Y"/>
+            <Condition val="89"/>
+            <Event>
+              <EventType val="I"/>
+              <InternalEventID val="304"/>
+              <PublicObject comp="-1"/>
+            </Event>
+            <TXT val="pbDevolucao"/>
+            <LogicLines>
+              <LogicLine>
+                <Evaluate FlowIsn="26">
+                  <Expression val="13"/>
+                  <Condition val="Y"/>
+                  <Modifier val="B"/>
+                  <Direction val="C"/>
+                </Evaluate>
+              </LogicLine>
+            </LogicLines>
+          </LogicUnit>
+          <LogicUnit id="27" propagate="78">
+            <Level val="H"/>
+            <Type val="U"/>
+            <_DspTemplate val="-1"/>
+            <_HeaderPosition val="25"/>
+            <Scope val="T"/>
+            <EngineDirective val="S"/>
+            <ShowMessage val="Y"/>
+            <Condition val="89"/>
+            <Event>
+              <EventType val="I"/>
+              <InternalEventID val="303"/>
+              <PublicObject comp="-1"/>
+            </Event>
+            <TXT val="pbDevolucao"/>
+            <LogicLines>
+              <LogicLine>
+                <Evaluate FlowIsn="27">
+                  <Expression val="14"/>
+                  <Condition val="Y"/>
+                  <Modifier val="B"/>
+                  <Direction val="C"/>
+                </Evaluate>
+              </LogicLine>
+            </LogicLines>
+          </LogicUnit>
+          <LogicUnit id="32" propagate="78">
+            <Level val="H"/>
+            <Type val="U"/>
+            <_DspTemplate val="-1"/>
+            <_HeaderPosition val="26"/>
+            <Scope val="T"/>
+            <EngineDirective val="S"/>
+            <ShowMessage val="Y"/>
+            <Condition val="89"/>
+            <Event>
+              <EventType val="I"/>
+              <InternalEventID val="304"/>
+              <PublicObject comp="-1"/>
+            </Event>
+            <TXT val="pbEmprestimo"/>
+            <LogicLines>
+              <LogicLine>
+                <Evaluate FlowIsn="28">
+                  <Expression val="13"/>
+                  <Condition val="Y"/>
+                  <Modifier val="B"/>
+                  <Direction val="C"/>
+                </Evaluate>
+              </LogicLine>
+            </LogicLines>
+          </LogicUnit>
+          <LogicUnit id="33" propagate="78">
+            <Level val="H"/>
+            <Type val="U"/>
+            <_DspTemplate val="-1"/>
+            <_HeaderPosition val="27"/>
+            <Scope val="T"/>
+            <EngineDirective val="S"/>
+            <ShowMessage val="Y"/>
+            <Condition val="89"/>
+            <Event>
+              <EventType val="I"/>
+              <InternalEventID val="303"/>
+              <PublicObject comp="-1"/>
+            </Event>
+            <TXT val="pbEmprestimo"/>
+            <LogicLines>
+              <LogicLine>
+                <Evaluate FlowIsn="29">
+                  <Expression val="14"/>
+                  <Condition val="Y"/>
+                  <Modifier val="B"/>
+                  <Direction val="C"/>
+                </Evaluate>
+              </LogicLine>
+            </LogicLines>
+          </LogicUnit>
+          <LogicUnit id="34" propagate="78">
+            <Level val="H"/>
+            <Type val="U"/>
+            <_DspTemplate val="-1"/>
+            <_HeaderPosition val="28"/>
+            <Scope val="T"/>
+            <EngineDirective val="S"/>
+            <ShowMessage val="Y"/>
+            <Condition val="89"/>
+            <Event>
+              <EventType val="I"/>
+              <InternalEventID val="304"/>
+              <PublicObject comp="-1"/>
+            </Event>
+            <TXT val="pbExemplar"/>
+            <LogicLines>
+              <LogicLine>
+                <Evaluate FlowIsn="30">
+                  <Expression val="13"/>
+                  <Condition val="Y"/>
+                  <Modifier val="B"/>
+                  <Direction val="C"/>
+                </Evaluate>
+              </LogicLine>
+            </LogicLines>
+          </LogicUnit>
+          <LogicUnit id="35" propagate="78">
+            <Level val="H"/>
+            <Type val="U"/>
+            <_DspTemplate val="-1"/>
+            <_HeaderPosition val="29"/>
+            <Scope val="T"/>
+            <EngineDirective val="S"/>
+            <ShowMessage val="Y"/>
+            <Condition val="89"/>
+            <Event>
+              <EventType val="I"/>
+              <InternalEventID val="303"/>
+              <PublicObject comp="-1"/>
+            </Event>
+            <TXT val="pbExemplar"/>
+            <LogicLines>
+              <LogicLine>
+                <Evaluate FlowIsn="31">
+                  <Expression val="14"/>
+                  <Condition val="Y"/>
+                  <Modifier val="B"/>
+                  <Direction val="C"/>
+                </Evaluate>
+              </LogicLine>
+            </LogicLines>
+          </LogicUnit>
+          <LogicUnit id="44" propagate="78">
+            <Level val="H"/>
+            <Type val="U"/>
+            <_DspTemplate val="-1"/>
+            <_HeaderPosition val="30"/>
+            <Scope val="T"/>
+            <EngineDirective val="S"/>
+            <ShowMessage val="Y"/>
+            <Condition val="89"/>
+            <Event>
+              <EventType val="I"/>
+              <InternalEventID val="304"/>
+              <PublicObject comp="-1"/>
+            </Event>
+            <TXT val="pbLivro"/>
+            <LogicLines>
+              <LogicLine>
+                <Evaluate FlowIsn="32">
+                  <Expression val="13"/>
+                  <Condition val="Y"/>
+                  <Modifier val="B"/>
+                  <Direction val="C"/>
+                </Evaluate>
+              </LogicLine>
+            </LogicLines>
+          </LogicUnit>
+          <LogicUnit id="45" propagate="78">
+            <Level val="H"/>
+            <Type val="U"/>
+            <_DspTemplate val="-1"/>
+            <_HeaderPosition val="31"/>
+            <Scope val="T"/>
+            <EngineDirective val="S"/>
+            <ShowMessage val="Y"/>
+            <Condition val="89"/>
+            <Event>
+              <EventType val="I"/>
+              <InternalEventID val="303"/>
+              <PublicObject comp="-1"/>
+            </Event>
+            <TXT val="pbLivro"/>
+            <LogicLines>
+              <LogicLine>
+                <Evaluate FlowIsn="33">
+                  <Expression val="14"/>
+                  <Condition val="Y"/>
+                  <Modifier val="B"/>
+                  <Direction val="C"/>
+                </Evaluate>
+              </LogicLine>
+            </LogicLines>
+          </LogicUnit>
+          <LogicUnit id="46" propagate="78">
+            <Level val="H"/>
+            <Type val="U"/>
+            <_DspTemplate val="-1"/>
+            <_HeaderPosition val="32"/>
+            <Scope val="T"/>
+            <EngineDirective val="S"/>
+            <ShowMessage val="Y"/>
+            <Condition val="89"/>
+            <Event>
+              <EventType val="I"/>
+              <InternalEventID val="304"/>
+              <PublicObject comp="-1"/>
+            </Event>
+            <TXT val="pbLogin"/>
+            <LogicLines>
+              <LogicLine>
+                <Evaluate FlowIsn="34">
+                  <Expression val="13"/>
+                  <Condition val="Y"/>
+                  <Modifier val="B"/>
+                  <Direction val="C"/>
+                </Evaluate>
+              </LogicLine>
+            </LogicLines>
+          </LogicUnit>
+          <LogicUnit id="47" propagate="78">
+            <Level val="H"/>
+            <Type val="U"/>
+            <_DspTemplate val="-1"/>
+            <_HeaderPosition val="33"/>
+            <Scope val="T"/>
+            <EngineDirective val="S"/>
+            <ShowMessage val="Y"/>
+            <Condition val="89"/>
+            <Event>
+              <EventType val="I"/>
+              <InternalEventID val="303"/>
+              <PublicObject comp="-1"/>
+            </Event>
+            <TXT val="pbLogin"/>
+            <LogicLines>
+              <LogicLine>
+                <Evaluate FlowIsn="35">
+                  <Expression val="14"/>
+                  <Condition val="Y"/>
+                  <Modifier val="B"/>
+                  <Direction val="C"/>
+                </Evaluate>
+              </LogicLine>
+            </LogicLines>
+          </LogicUnit>
+          <LogicUnit id="48" propagate="78">
+            <Level val="H"/>
+            <Type val="U"/>
+            <_DspTemplate val="-1"/>
+            <_HeaderPosition val="34"/>
+            <Scope val="T"/>
+            <EngineDirective val="S"/>
+            <ShowMessage val="Y"/>
+            <Condition val="89"/>
+            <Event>
+              <EventType val="I"/>
+              <InternalEventID val="304"/>
+              <PublicObject comp="-1"/>
+            </Event>
+            <TXT val="pbMulta"/>
+            <LogicLines>
+              <LogicLine>
+                <Evaluate FlowIsn="36">
+                  <Expression val="13"/>
+                  <Condition val="Y"/>
+                  <Modifier val="B"/>
+                  <Direction val="C"/>
+                </Evaluate>
+              </LogicLine>
+            </LogicLines>
+          </LogicUnit>
+          <LogicUnit id="49" propagate="78">
+            <Level val="H"/>
+            <Type val="U"/>
+            <_DspTemplate val="-1"/>
+            <_HeaderPosition val="35"/>
+            <Scope val="T"/>
+            <EngineDirective val="S"/>
+            <ShowMessage val="Y"/>
+            <Condition val="89"/>
+            <Event>
+              <EventType val="I"/>
+              <InternalEventID val="303"/>
+              <PublicObject comp="-1"/>
+            </Event>
+            <TXT val="pbMulta"/>
+            <LogicLines>
+              <LogicLine>
+                <Evaluate FlowIsn="37">
+                  <Expression val="14"/>
+                  <Condition val="Y"/>
+                  <Modifier val="B"/>
+                  <Direction val="C"/>
+                </Evaluate>
+              </LogicLine>
+            </LogicLines>
+          </LogicUnit>
+          <LogicUnit id="50" propagate="78">
+            <Level val="H"/>
+            <Type val="U"/>
+            <_DspTemplate val="-1"/>
+            <_HeaderPosition val="36"/>
+            <Scope val="T"/>
+            <EngineDirective val="S"/>
+            <ShowMessage val="Y"/>
+            <Condition val="89"/>
+            <Event>
+              <EventType val="I"/>
+              <InternalEventID val="304"/>
+              <PublicObject comp="-1"/>
+            </Event>
+            <TXT val="pbPerfil"/>
+            <LogicLines>
+              <LogicLine>
+                <Evaluate FlowIsn="38">
+                  <Expression val="13"/>
+                  <Condition val="Y"/>
+                  <Modifier val="B"/>
+                  <Direction val="C"/>
+                </Evaluate>
+              </LogicLine>
+            </LogicLines>
+          </LogicUnit>
+          <LogicUnit id="51" propagate="78">
+            <Level val="H"/>
+            <Type val="U"/>
+            <_DspTemplate val="-1"/>
+            <_HeaderPosition val="37"/>
+            <Scope val="T"/>
+            <EngineDirective val="S"/>
+            <ShowMessage val="Y"/>
+            <Condition val="89"/>
+            <Event>
+              <EventType val="I"/>
+              <InternalEventID val="303"/>
+              <PublicObject comp="-1"/>
+            </Event>
+            <TXT val="pbPerfil"/>
+            <LogicLines>
+              <LogicLine>
+                <Evaluate FlowIsn="39">
+                  <Expression val="14"/>
+                  <Condition val="Y"/>
+                  <Modifier val="B"/>
+                  <Direction val="C"/>
+                </Evaluate>
+              </LogicLine>
+            </LogicLines>
+          </LogicUnit>
+          <LogicUnit id="54" propagate="78">
+            <Level val="H"/>
+            <Type val="U"/>
+            <_DspTemplate val="-1"/>
+            <_HeaderPosition val="38"/>
+            <Scope val="T"/>
+            <EngineDirective val="S"/>
+            <ShowMessage val="Y"/>
+            <Condition val="89"/>
+            <Event>
+              <EventType val="I"/>
+              <InternalEventID val="304"/>
+              <PublicObject comp="-1"/>
+            </Event>
+            <TXT val="pbUsuario"/>
+            <LogicLines>
+              <LogicLine>
+                <Evaluate FlowIsn="40">
+                  <Expression val="13"/>
+                  <Condition val="Y"/>
+                  <Modifier val="B"/>
+                  <Direction val="C"/>
+                </Evaluate>
+              </LogicLine>
+            </LogicLines>
+          </LogicUnit>
+          <LogicUnit id="55" propagate="78">
+            <Level val="H"/>
+            <Type val="U"/>
+            <_DspTemplate val="-1"/>
+            <_HeaderPosition val="39"/>
+            <Scope val="T"/>
+            <EngineDirective val="S"/>
+            <ShowMessage val="Y"/>
+            <Condition val="89"/>
+            <Event>
+              <EventType val="I"/>
+              <InternalEventID val="303"/>
+              <PublicObject comp="-1"/>
+            </Event>
+            <TXT val="pbUsuario"/>
+            <Expanded val="1"/>
+            <LogicLines>
+              <LogicLine>
+                <Evaluate FlowIsn="41">
+                  <Expression val="14"/>
+                  <Condition val="Y"/>
+                  <Modifier val="B"/>
+                  <Direction val="C"/>
+                </Evaluate>
+              </LogicLine>
+            </LogicLines>
+          </LogicUnit>
         </TaskLogic>
         <TaskForms>
-          <FormEntry _last_isn="11" _last_test_id="11" id="1">
+          <FormEntry _last_isn="21" _last_test_id="21" id="1">
             <PropertyList model="FORM_GUI0">
-              <Width id="23" val="414"/>
-              <Height id="24" val="69"/>
+              <Width id="23" val="694"/>
+              <Height id="24" val="133"/>
+              <HorizontalFactor id="35" val="8"/>
+              <GridX id="38" val="8"/>
               <_Comment id="218"/>
               <FormName id="311" valUnicode="View - Main"/>
             </PropertyList>
+            <Control PDOD="128" _test_id="12" id="12">
+              <PropertyList model="CTRL_GUI0_IMAGE">
+                <X id="21" val="19"/>
+                <Y id="22" val="7"/>
+                <Width id="23" val="93"/>
+                <Height id="24" val="36"/>
+                <Data FieldID="1" id="43"/>
+                <ControlName id="46" val="pbAutor"/>
+                <Tooltip Exp="4" id="56"/>
+                <DefaultImageFile id="88" val="img\autor.png"/>
+                <ImageStyle id="89" val="3"/>
+                <TabOrder id="314" val="1"/>
+              </PropertyList>
+            </Control>
+            <Control PDOD="128" _test_id="13" id="13">
+              <PropertyList model="CTRL_GUI0_IMAGE">
+                <X id="21" val="157"/>
+                <Y id="22" val="7"/>
+                <Width id="23" val="94"/>
+                <Height id="24" val="36"/>
+                <Data FieldID="2" id="43"/>
+                <ControlName id="46" val="pbLivro"/>
+                <Tooltip Exp="5" id="56"/>
+                <DefaultImageFile id="88" val="img\livro.png"/>
+                <ImageStyle id="89" val="3"/>
+                <TabOrder id="314" val="2"/>
+              </PropertyList>
+            </Control>
+            <Control PDOD="128" _test_id="15" id="15">
+              <PropertyList model="CTRL_GUI0_IMAGE">
+                <X id="21" val="296"/>
+                <Y id="22" val="7"/>
+                <Width id="23" val="93"/>
+                <Height id="24" val="36"/>
+                <Data FieldID="3" id="43"/>
+                <ControlName id="46" val="pbExemplar"/>
+                <Tooltip Exp="6" id="56"/>
+                <DefaultImageFile id="88" val="img\exemplar.png"/>
+                <ImageStyle id="89" val="3"/>
+                <TabOrder id="314" val="3"/>
+              </PropertyList>
+            </Control>
+            <Control PDOD="128" _test_id="14" id="14">
+              <PropertyList model="CTRL_GUI0_IMAGE">
+                <X id="21" val="434"/>
+                <Y id="22" val="7"/>
+                <Width id="23" val="94"/>
+                <Height id="24" val="36"/>
+                <Data FieldID="4" id="43"/>
+                <ControlName id="46" val="pbPerfil"/>
+                <Tooltip Exp="7" id="56"/>
+                <DefaultImageFile id="88" val="img\perfil.png"/>
+                <ImageStyle id="89" val="3"/>
+                <TabOrder id="314" val="4"/>
+              </PropertyList>
+            </Control>
+            <Control PDOD="128" _test_id="20" id="20">
+              <PropertyList model="CTRL_GUI0_IMAGE">
+                <X id="21" val="573"/>
+                <Y id="22" val="7"/>
+                <Width id="23" val="94"/>
+                <Height id="24" val="36"/>
+                <Data FieldID="5" id="43"/>
+                <ControlName id="46" val="pbUsuario"/>
+                <Tooltip Exp="8" id="56"/>
+                <DefaultImageFile id="88" val="img\usuario.png"/>
+                <ImageStyle id="89" val="3"/>
+                <TabOrder id="314" val="5"/>
+              </PropertyList>
+            </Control>
+            <Control PDOD="128" _test_id="17" id="17">
+              <PropertyList model="CTRL_GUI0_IMAGE">
+                <X id="21" val="19"/>
+                <Y id="22" val="47"/>
+                <Width id="23" val="93"/>
+                <Height id="24" val="36"/>
+                <Data FieldID="6" id="43"/>
+                <ControlName id="46" val="pbLogin"/>
+                <Tooltip Exp="9" id="56"/>
+                <DefaultImageFile id="88" val="img\login.png"/>
+                <ImageStyle id="89" val="3"/>
+                <TabOrder id="314" val="6"/>
+              </PropertyList>
+            </Control>
             <Control _test_id="10" id="10">
               <PropertyList model="CTRL_GUI0_STATIC">
                 <Text id="19" valUnicode="Usuário Logado:"/>
-                <X id="21" val="90"/>
-                <Y id="22" val="26"/>
-                <Width id="23" val="63"/>
+                <X id="21" val="157"/>
+                <Y id="22" val="61"/>
+                <Width id="23" val="126"/>
                 <Height id="24" val="12"/>
                 <Style id="63" val="7"/>
                 <EnableRTF id="69"/>
@@ -719,187 +1346,59 @@
             </Control>
             <Control _test_id="11" id="11">
               <PropertyList model="CTRL_GUI0_EDIT">
-                <X id="21" val="158"/>
-                <Y id="22" val="27"/>
-                <Width id="23" val="134"/>
+                <X id="21" val="293"/>
+                <Y id="22" val="61"/>
+                <Width id="23" val="268"/>
                 <Height id="24" val="10"/>
                 <Data Exp="1" id="43"/>
                 <ControlName id="46" val="vUsuarioLogado"/>
                 <Format id="82" valUnicode="50"/>
                 <Attribute id="83" val="85"/>
+                <ExpansionWindow id="84"/>
                 <_Orientation id="143"/>
                 <TabOrder id="314" val="7"/>
                 <Border id="452"/>
               </PropertyList>
             </Control>
-            <Control _test_id="1" id="1">
-              <PropertyList model="CTRL_GUI0_PUSH_BUTTON">
-                <Model ID="MODEL_GUI_INT" id="1">
-                  <Var FieldID="1"/>
-                </Model>
-                <X id="21" val="10"/>
-                <Y id="22" val="8"/>
-                <Width id="23" val="74"/>
-                <Height id="24" val="14"/>
-                <Data FieldID="1" id="43"/>
-                <ControlName id="46" val="pbAutor"/>
-                <RaiseEvent id="234">
-                  <EventType val="I"/>
-                  <InternalEventID val="34"/>
-                  <PublicObject comp="-1"/>
-                </RaiseEvent>
-                <TabOrder id="314" val="1"/>
-              </PropertyList>
-            </Control>
-            <Control _test_id="2" id="2">
-              <PropertyList model="CTRL_GUI0_PUSH_BUTTON">
-                <Model ID="MODEL_GUI_INT" id="1">
-                  <Var FieldID="2"/>
-                </Model>
-                <X id="21" val="89"/>
-                <Y id="22" val="8"/>
-                <Width id="23" val="74"/>
-                <Height id="24" val="14"/>
-                <Data FieldID="2" id="43"/>
-                <ControlName id="46" val="pbLivro"/>
-                <RaiseEvent id="234">
-                  <EventType val="I"/>
-                  <InternalEventID val="34"/>
-                  <PublicObject comp="-1"/>
-                </RaiseEvent>
-                <TabOrder id="314" val="2"/>
-              </PropertyList>
-            </Control>
-            <Control _test_id="3" id="3">
-              <PropertyList model="CTRL_GUI0_PUSH_BUTTON">
-                <Model ID="MODEL_GUI_INT" id="1">
-                  <Var FieldID="3"/>
-                </Model>
-                <X id="21" val="168"/>
-                <Y id="22" val="8"/>
-                <Width id="23" val="74"/>
-                <Height id="24" val="14"/>
-                <Data FieldID="3" id="43"/>
-                <ControlName id="46" val="pbExemplar"/>
-                <RaiseEvent id="234">
-                  <EventType val="I"/>
-                  <InternalEventID val="34"/>
-                  <PublicObject comp="-1"/>
-                </RaiseEvent>
-                <TabOrder id="314" val="3"/>
-              </PropertyList>
-            </Control>
-            <Control _test_id="4" id="4">
-              <PropertyList model="CTRL_GUI0_PUSH_BUTTON">
-                <Model ID="MODEL_GUI_INT" id="1">
-                  <Var FieldID="4"/>
-                </Model>
-                <X id="21" val="247"/>
-                <Y id="22" val="8"/>
-                <Width id="23" val="74"/>
-                <Height id="24" val="14"/>
-                <Data FieldID="4" id="43"/>
-                <ControlName id="46" val="pbPerfil"/>
-                <RaiseEvent id="234">
-                  <EventType val="I"/>
-                  <InternalEventID val="34"/>
-                  <PublicObject comp="-1"/>
-                </RaiseEvent>
-                <TabOrder id="314" val="4"/>
-              </PropertyList>
-            </Control>
-            <Control _test_id="5" id="5">
-              <PropertyList model="CTRL_GUI0_PUSH_BUTTON">
-                <Model ID="MODEL_GUI_INT" id="1">
-                  <Var FieldID="5"/>
-                </Model>
-                <X id="21" val="326"/>
-                <Y id="22" val="8"/>
-                <Width id="23" val="74"/>
-                <Height id="24" val="14"/>
-                <Data FieldID="5" id="43"/>
-                <ControlName id="46" val="pbUsuario"/>
-                <RaiseEvent id="234">
-                  <EventType val="I"/>
-                  <InternalEventID val="34"/>
-                  <PublicObject comp="-1"/>
-                </RaiseEvent>
-                <TabOrder id="314" val="5"/>
-              </PropertyList>
-            </Control>
-            <Control _test_id="6" id="6">
-              <PropertyList model="CTRL_GUI0_PUSH_BUTTON">
-                <Model ID="MODEL_GUI_INT" id="1">
-                  <Var FieldID="6"/>
-                </Model>
-                <X id="21" val="10"/>
-                <Y id="22" val="26"/>
-                <Width id="23" val="74"/>
-                <Height id="24" val="14"/>
-                <Data FieldID="6" id="43"/>
-                <ControlName id="46" val="pbLogin"/>
-                <RaiseEvent id="234">
-                  <EventType val="I"/>
-                  <InternalEventID val="34"/>
-                  <PublicObject comp="-1"/>
-                </RaiseEvent>
-                <TabOrder id="314" val="6"/>
-              </PropertyList>
-            </Control>
-            <Control _test_id="7" id="7">
-              <PropertyList model="CTRL_GUI0_PUSH_BUTTON">
-                <Model ID="MODEL_GUI_INT" id="1">
-                  <Var FieldID="7"/>
-                </Model>
-                <X id="21" val="10"/>
-                <Y id="22" val="44"/>
-                <Width id="23" val="75"/>
-                <Height id="24" val="14"/>
+            <Control PDOD="128" _test_id="19" id="19">
+              <PropertyList model="CTRL_GUI0_IMAGE">
+                <X id="21" val="19"/>
+                <Y id="22" val="87"/>
+                <Width id="23" val="93"/>
+                <Height id="24" val="36"/>
                 <Data FieldID="7" id="43"/>
                 <ControlName id="46" val="pbEmprestimo"/>
-                <RaiseEvent id="234">
-                  <EventType val="I"/>
-                  <InternalEventID val="34"/>
-                  <PublicObject comp="-1"/>
-                </RaiseEvent>
+                <Tooltip Exp="10" id="56"/>
+                <DefaultImageFile id="88" val="img\emprestimo.png"/>
+                <ImageStyle id="89" val="3"/>
                 <TabOrder id="314" val="8"/>
               </PropertyList>
             </Control>
-            <Control _test_id="8" id="8">
-              <PropertyList model="CTRL_GUI0_PUSH_BUTTON">
-                <Model ID="MODEL_GUI_INT" id="1">
-                  <Var FieldID="8"/>
-                </Model>
-                <X id="21" val="90"/>
-                <Y id="22" val="44"/>
-                <Width id="23" val="74"/>
-                <Height id="24" val="14"/>
+            <Control PDOD="128" _test_id="18" id="18">
+              <PropertyList model="CTRL_GUI0_IMAGE">
+                <X id="21" val="157"/>
+                <Y id="22" val="87"/>
+                <Width id="23" val="94"/>
+                <Height id="24" val="36"/>
                 <Data FieldID="8" id="43"/>
                 <ControlName id="46" val="pbDevolucao"/>
-                <RaiseEvent id="234">
-                  <EventType val="I"/>
-                  <InternalEventID val="34"/>
-                  <PublicObject comp="-1"/>
-                </RaiseEvent>
+                <Tooltip Exp="11" id="56"/>
+                <DefaultImageFile id="88" val="img\devolucao.png"/>
+                <ImageStyle id="89" val="3"/>
                 <TabOrder id="314" val="9"/>
               </PropertyList>
             </Control>
-            <Control _test_id="9" id="9">
-              <PropertyList model="CTRL_GUI0_PUSH_BUTTON">
-                <Model ID="MODEL_GUI_INT" id="1">
-                  <Var FieldID="9"/>
-                </Model>
-                <X id="21" val="169"/>
-                <Y id="22" val="44"/>
-                <Width id="23" val="74"/>
-                <Height id="24" val="14"/>
+            <Control PDOD="128" _test_id="21" id="21">
+              <PropertyList model="CTRL_GUI0_IMAGE">
+                <X id="21" val="296"/>
+                <Y id="22" val="87"/>
+                <Width id="23" val="93"/>
+                <Height id="24" val="36"/>
                 <Data FieldID="9" id="43"/>
                 <ControlName id="46" val="pbMulta"/>
-                <RaiseEvent id="234">
-                  <EventType val="I"/>
-                  <InternalEventID val="34"/>
-                  <PublicObject comp="-1"/>
-                </RaiseEvent>
+                <Tooltip Exp="12" id="56"/>
+                <DefaultImageFile id="88" val="img\multa.png"/>
+                <ImageStyle id="89" val="3"/>
                 <TabOrder id="314" val="10"/>
               </PropertyList>
             </Control>
@@ -916,6 +1415,50 @@
           </Expression>
           <Expression id="3">
             <ExpSyntax val="Trim({32768,3})=''"/>
+            <ExpAttribute val="B"/>
+          </Expression>
+          <Expression id="6">
+            <ExpSyntax val="'Autor'"/>
+            <ExpAttribute val="A"/>
+          </Expression>
+          <Expression id="7">
+            <ExpSyntax val="'Livro'"/>
+            <ExpAttribute val="A"/>
+          </Expression>
+          <Expression id="8">
+            <ExpSyntax val="'Exemplar'"/>
+            <ExpAttribute val="A"/>
+          </Expression>
+          <Expression id="9">
+            <ExpSyntax val="'Perfil'"/>
+            <ExpAttribute val="A"/>
+          </Expression>
+          <Expression id="10">
+            <ExpSyntax val="'Usuário'"/>
+            <ExpAttribute val="A"/>
+          </Expression>
+          <Expression id="11">
+            <ExpSyntax val="'Login'"/>
+            <ExpAttribute val="A"/>
+          </Expression>
+          <Expression id="12">
+            <ExpSyntax val="'Empréstimo'"/>
+            <ExpAttribute val="A"/>
+          </Expression>
+          <Expression id="13">
+            <ExpSyntax val="'Devolução'"/>
+            <ExpAttribute val="A"/>
+          </Expression>
+          <Expression id="14">
+            <ExpSyntax val="'Multa'"/>
+            <ExpAttribute val="A"/>
+          </Expression>
+          <Expression id="15">
+            <ExpSyntax val="SetCrsr(3)"/>
+            <ExpAttribute val="B"/>
+          </Expression>
+          <Expression id="16">
+            <ExpSyntax val="SetCrsr(1)"/>
             <ExpAttribute val="B"/>
           </Expression>
         </Expressions>
