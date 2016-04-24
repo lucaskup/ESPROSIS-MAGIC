@@ -26,7 +26,7 @@
           <Offline val="N"/>
           <FormType val="N"/>
           <DotNetObjectExists val="N"/>
-          <LastModified _date="736023" _time="72247" date="29/02/2016" time="20:04:07"/>
+          <LastModified _date="736078" _time="68415" date="24/04/2016" time="19:00:15"/>
         </Header>
         <ItemIsn val="10"/>
         <Resource>
@@ -558,12 +558,13 @@
           <FormEntry _last_isn="18" _last_test_id="18" id="1">
             <PropertyList model="FORM_GUI0">
               <Width id="23" val="537"/>
-              <Height id="24" val="212"/>
+              <Height id="24" val="241"/>
               <FormUnits id="33" val="1"/>
               <VerticalFactor id="34" val="8"/>
               <HorizontalFactor id="35" val="4"/>
               <GridX id="38" val="4"/>
               <GridY id="39" val="8"/>
+              <Color id="51" val="1"/>
               <_Comment id="218"/>
               <StartupPosition id="275" val="4"/>
               <FormName id="311" valUnicode="View - Livros"/>
@@ -575,40 +576,52 @@
                 <X id="21" val="8"/>
                 <Y id="22" val="8"/>
                 <Width id="23" val="519"/>
-                <Height id="24" val="182"/>
-                <TitleHeight id="79" val="12"/>
-                <RowHeight id="80" val="15"/>
+                <Height id="24" val="204"/>
+                <LineDivider id="78"/>
+                <TitleHeight id="79" val="16"/>
+                <RowHeight id="80" val="20"/>
                 <Elements id="81" val="4"/>
                 <_WindowWidth id="241" val="519"/>
+                <RowHighlightStyle id="409" val="4"/>
+                <RowHighlightColor id="410" val="5"/>
+                <BottomPositionInterval id="411" val="2"/>
+                <SetTableColorBy id="428" val="2"/>
+                <AlternatingBgColor id="429" val="6"/>
               </PropertyList>
             </Control>
             <Control ISN_FATHER="1" PDOD="128" _test_id="4" id="4">
               <PropertyList model="CTRL_GUI0_COLUMN">
                 <Width id="23" val="63"/>
                 <ControlLayer id="25" val="1"/>
+                <Font id="50" val="12"/>
+                <Color id="51" val="5"/>
                 <Sortable id="134" val="Y"/>
-                <ColumnTitle id="139" valUnicode="id"/>
+                <ColumnTitle id="139" valUnicode="ID"/>
               </PropertyList>
             </Control>
             <Control ISN_FATHER="1" PDOD="128" _test_id="5" id="5">
               <PropertyList model="CTRL_GUI0_COLUMN">
                 <Width id="23" val="204"/>
                 <ControlLayer id="25" val="2"/>
-                <ColumnTitle id="139" valUnicode="nome"/>
+                <Font id="50" val="12"/>
+                <Color id="51" val="5"/>
+                <ColumnTitle id="139" valUnicode="Nome"/>
               </PropertyList>
             </Control>
             <Control ISN_FATHER="1" PDOD="128" _test_id="14" id="14">
               <PropertyList model="CTRL_GUI0_COLUMN">
                 <Width id="23" val="152"/>
                 <ControlLayer id="25" val="3"/>
-                <ColumnTitle id="139" valUnicode="fkAutor"/>
+                <Font id="50" val="12"/>
+                <ColumnTitle id="139" valUnicode="Autor"/>
               </PropertyList>
             </Control>
             <Control ISN_FATHER="1" PDOD="128" _test_id="16" id="16">
               <PropertyList model="CTRL_GUI0_COLUMN">
                 <Width id="23" val="83"/>
                 <ControlLayer id="25" val="4"/>
-                <ColumnTitle id="139" valUnicode="isbn"/>
+                <Font id="50" val="12"/>
+                <ColumnTitle id="139" valUnicode="ISBN"/>
               </PropertyList>
             </Control>
             <Control ISN_FATHER="1" _test_id="2" id="2">
@@ -618,12 +631,14 @@
                 </Model>
                 <Placement bottom="100" id="20" right="100"/>
                 <X id="21" val="12"/>
-                <Y id="22" val="23"/>
+                <Y id="22" val="27"/>
                 <Width id="23" val="56"/>
-                <Height id="24" val="10"/>
+                <Height id="24" val="16"/>
                 <ControlLayer id="25" val="1"/>
                 <Data FieldID="1" id="43"/>
                 <ControlName id="46" val="id"/>
+                <Font id="50" val="12"/>
+                <Color id="51" val="7"/>
                 <Style id="63" val="1"/>
                 <_Orientation id="143"/>
                 <TabOrder id="314" val="1"/>
@@ -637,12 +652,14 @@
                 </Model>
                 <Placement bottom="100" id="20" right="100"/>
                 <X id="21" val="75"/>
-                <Y id="22" val="23"/>
+                <Y id="22" val="27"/>
                 <Width id="23" val="199"/>
-                <Height id="24" val="10"/>
+                <Height id="24" val="16"/>
                 <ControlLayer id="25" val="2"/>
                 <Data FieldID="2" id="43"/>
                 <ControlName id="46" val="nome"/>
+                <Font id="50" val="12"/>
+                <Color id="51" val="7"/>
                 <Style id="63" val="1"/>
                 <_Orientation id="143"/>
                 <TabOrder id="314" val="2"/>
@@ -656,12 +673,14 @@
                 </Model>
                 <Placement bottom="100" id="20" right="100"/>
                 <X id="21" val="431"/>
-                <Y id="22" val="23"/>
+                <Y id="22" val="27"/>
                 <Width id="23" val="76"/>
-                <Height id="24" val="10"/>
+                <Height id="24" val="16"/>
                 <ControlLayer id="25" val="4"/>
                 <Data FieldID="10" id="43"/>
                 <ControlName id="46" val="isbn"/>
+                <Font id="50" val="12"/>
+                <Color id="51" val="7"/>
                 <Style id="63" val="1"/>
                 <_Orientation id="143"/>
                 <TabOrder id="314" val="4"/>
@@ -672,13 +691,15 @@
               <PropertyList model="CTRL_GUI0_COMBOBOX">
                 <Placement bottom="100" id="20" right="100"/>
                 <X id="21" val="279"/>
-                <Y id="22" val="23"/>
+                <Y id="22" val="26"/>
                 <Width id="23" val="147"/>
-                <Height id="24" val="12"/>
+                <Height id="24" val="18"/>
                 <ControlLayer id="25" val="3"/>
                 <Data FieldID="9" id="43"/>
                 <ItemsList id="45"/>
                 <ControlName id="46" val="fkAutor"/>
+                <Font id="50" val="12"/>
+                <Color id="51" val="7"/>
                 <Style id="63" val="1"/>
                 <_Orientation id="143"/>
                 <SourceTable comp="-1" id="150" obj="1"/>
@@ -694,11 +715,12 @@
                   <Var FieldID="7"/>
                 </Model>
                 <X id="21" val="162"/>
-                <Y id="22" val="194"/>
+                <Y id="22" val="216"/>
                 <Width id="23" val="87"/>
-                <Height id="24" val="14"/>
+                <Height id="24" val="16"/>
                 <Data FieldID="7" id="43"/>
                 <ControlName id="46" val="pbExcluir"/>
+                <Font id="50" val="12"/>
                 <RaiseEvent id="234">
                   <EventType val="I"/>
                   <InternalEventID val="34"/>
@@ -713,11 +735,12 @@
                   <Var FieldID="4"/>
                 </Model>
                 <X id="21" val="254"/>
-                <Y id="22" val="194"/>
+                <Y id="22" val="216"/>
                 <Width id="23" val="87"/>
-                <Height id="24" val="14"/>
+                <Height id="24" val="16"/>
                 <Data FieldID="4" id="43"/>
                 <ControlName id="46" val="pbEditar"/>
+                <Font id="50" val="12"/>
                 <RaiseEvent id="234">
                   <EventType val="I"/>
                   <InternalEventID val="34"/>
@@ -732,11 +755,12 @@
                   <Var FieldID="5"/>
                 </Model>
                 <X id="21" val="346"/>
-                <Y id="22" val="194"/>
+                <Y id="22" val="216"/>
                 <Width id="23" val="87"/>
-                <Height id="24" val="14"/>
+                <Height id="24" val="16"/>
                 <Data FieldID="5" id="43"/>
                 <ControlName id="46" val="pbCriar"/>
+                <Font id="50" val="12"/>
                 <RaiseEvent id="234">
                   <EventType val="I"/>
                   <InternalEventID val="34"/>
@@ -751,11 +775,12 @@
                   <Var FieldID="6"/>
                 </Model>
                 <X id="21" val="438"/>
-                <Y id="22" val="194"/>
+                <Y id="22" val="216"/>
                 <Width id="23" val="87"/>
-                <Height id="24" val="14"/>
+                <Height id="24" val="16"/>
                 <Data FieldID="6" id="43"/>
                 <ControlName id="46" val="pbVoltar"/>
+                <Font id="50" val="12"/>
                 <RaiseEvent id="234">
                   <EventType val="I"/>
                   <InternalEventID val="393"/>

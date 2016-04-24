@@ -33,7 +33,7 @@
           <Offline val="N"/>
           <FormType val="N"/>
           <DotNetObjectExists val="N"/>
-          <LastModified _date="736023" _time="72657" date="29/02/2016" time="20:10:57"/>
+          <LastModified _date="736078" _time="67485" date="24/04/2016" time="18:44:45"/>
         </Header>
         <ItemIsn val="11"/>
         <Resource>
@@ -196,7 +196,7 @@
                   <_ControlIndex val="1"/>
                   <_OleSubformIdx val="1"/>
                   <_TabbingOrderDspIndex val="1"/>
-                  <_DitIndexForToolkit val="2"/>
+                  <_DitIndexForToolkit val="4"/>
                   <DIFF_UPDATE val="T"/>
                   <Condition val="Y"/>
                   <Modifier val="S"/>
@@ -213,7 +213,7 @@
                   <_ControlIndex val="1"/>
                   <_OleSubformIdx val="1"/>
                   <_TabbingOrderDspIndex val="1"/>
-                  <_DitIndexForToolkit val="4"/>
+                  <_DitIndexForToolkit val="6"/>
                   <DIFF_UPDATE val="T"/>
                   <Condition val="Y"/>
                   <Modifier val="S"/>
@@ -230,7 +230,7 @@
                   <_ControlIndex val="1"/>
                   <_OleSubformIdx val="1"/>
                   <_TabbingOrderDspIndex val="1"/>
-                  <_DitIndexForToolkit val="8"/>
+                  <_DitIndexForToolkit val="10"/>
                   <DIFF_UPDATE val="T"/>
                   <Condition val="Y"/>
                   <Modifier val="S"/>
@@ -247,7 +247,7 @@
                   <_ControlIndex val="1"/>
                   <_OleSubformIdx val="1"/>
                   <_TabbingOrderDspIndex val="1"/>
-                  <_DitIndexForToolkit val="7"/>
+                  <_DitIndexForToolkit val="9"/>
                   <DIFF_UPDATE val="T"/>
                   <Condition val="Y"/>
                   <Modifier val="S"/>
@@ -270,7 +270,7 @@
                   <_ControlIndex val="1"/>
                   <_OleSubformIdx val="1"/>
                   <_TabbingOrderDspIndex val="1"/>
-                  <_DitIndexForToolkit val="9"/>
+                  <_DitIndexForToolkit val="11"/>
                   <DIFF_UPDATE val="T"/>
                   <Condition val="Y"/>
                   <Modifier val="S"/>
@@ -287,7 +287,7 @@
                   <_ControlIndex val="1"/>
                   <_OleSubformIdx val="1"/>
                   <_TabbingOrderDspIndex val="1"/>
-                  <_DitIndexForToolkit val="10"/>
+                  <_DitIndexForToolkit val="12"/>
                   <DIFF_UPDATE val="T"/>
                   <Condition val="Y"/>
                   <Modifier val="S"/>
@@ -365,23 +365,46 @@
           </LogicUnit>
         </TaskLogic>
         <TaskForms>
-          <FormEntry _last_isn="13" _last_test_id="13" id="1">
+          <FormEntry _last_isn="15" _last_test_id="15" id="1">
             <PropertyList model="FORM_GUI0">
-              <Width id="23" val="315"/>
-              <Height id="24" val="103"/>
+              <Width id="23" val="334"/>
+              <Height id="24" val="159"/>
               <_Comment id="218"/>
               <StartupPosition id="275" val="4"/>
-              <FormName id="311" valUnicode="Autores - Edição"/>
+              <FormName id="311" valUnicode="Livros - Edição"/>
               <_TabbingOrder id="318" val="2"/>
             </PropertyList>
+            <Control _test_id="14" id="14">
+              <PropertyList model="CTRL_GUI0_STATIC">
+                <Text id="19"/>
+                <Width id="23" val="334"/>
+                <Height id="24" val="37"/>
+                <Color id="51" val="5"/>
+                <Style id="63" val="7"/>
+                <EnableRTF id="69"/>
+                <_Orientation id="143"/>
+              </PropertyList>
+            </Control>
+            <Control _test_id="15" id="15">
+              <PropertyList model="CTRL_GUI0_IMAGE">
+                <X id="21" val="16"/>
+                <Y id="22" val="4"/>
+                <Width id="23" val="39"/>
+                <Height id="24" val="28"/>
+                <Color id="51" val="5"/>
+                <DefaultImageFile id="88" val="img\livro.png"/>
+                <ImageStyle id="89" val="3"/>
+                <TabOrder id="314" val="7"/>
+              </PropertyList>
+            </Control>
             <Control _test_id="2" id="2">
               <PropertyList model="CTRL_GUI0_STATIC">
-                <Text id="19" valUnicode="id"/>
-                <X id="21" val="10"/>
-                <Y id="22" val="10"/>
-                <Width id="23" val="8"/>
-                <Height id="24" val="11"/>
-                <Font id="50" val="1"/>
+                <Text id="19" valUnicode="ID"/>
+                <X id="21" val="17"/>
+                <Y id="22" val="45"/>
+                <Width id="23" val="15"/>
+                <Height id="24" val="16"/>
+                <Font id="50" val="11"/>
                 <Style id="63" val="7"/>
                 <EnableRTF id="69"/>
                 <_Orientation id="143"/>
@@ -392,12 +415,13 @@
                 <Model ID="MODEL_GUI_INT" id="1">
                   <Var FieldID="3"/>
                 </Model>
-                <X id="21" val="50"/>
-                <Y id="22" val="10"/>
+                <X id="21" val="62"/>
+                <Y id="22" val="45"/>
                 <Width id="23" val="50"/>
-                <Height id="24" val="11"/>
+                <Height id="24" val="16"/>
                 <Data FieldID="3" id="43"/>
                 <ControlName id="46" val="id"/>
+                <Font id="50" val="12"/>
                 <Modifiable id="53"/>
                 <HorizontalAlignment id="65" val="1"/>
                 <_Orientation id="143"/>
@@ -407,12 +431,12 @@
             </Control>
             <Control _test_id="4" id="4">
               <PropertyList model="CTRL_GUI0_STATIC">
-                <Text id="19" valUnicode="nome"/>
-                <X id="21" val="10"/>
-                <Y id="22" val="28"/>
-                <Width id="23" val="22"/>
-                <Height id="24" val="11"/>
-                <Font id="50" val="1"/>
+                <Text id="19" valUnicode="Nome"/>
+                <X id="21" val="17"/>
+                <Y id="22" val="65"/>
+                <Width id="23" val="35"/>
+                <Height id="24" val="16"/>
+                <Font id="50" val="11"/>
                 <Style id="63" val="7"/>
                 <EnableRTF id="69"/>
                 <_Orientation id="143"/>
@@ -423,12 +447,13 @@
                 <Model ID="MODEL_GUI_INT" id="1">
                   <Var FieldID="4"/>
                 </Model>
-                <X id="21" val="50"/>
-                <Y id="22" val="28"/>
+                <X id="21" val="62"/>
+                <Y id="22" val="65"/>
                 <Width id="23" val="255"/>
-                <Height id="24" val="11"/>
+                <Height id="24" val="16"/>
                 <Data FieldID="4" id="43"/>
                 <ControlName id="46" val="nome"/>
+                <Font id="50" val="12"/>
                 <_Orientation id="143"/>
                 <TabOrder id="314" val="1"/>
               </PropertyList>
@@ -436,11 +461,11 @@
             <Control _test_id="13" id="13">
               <PropertyList model="CTRL_GUI0_STATIC">
                 <Text id="19" valUnicode="Autor"/>
-                <X id="21" val="10"/>
-                <Y id="22" val="46"/>
-                <Width id="23" val="22"/>
-                <Height id="24" val="11"/>
-                <Font id="50" val="1"/>
+                <X id="21" val="17"/>
+                <Y id="22" val="86"/>
+                <Width id="23" val="35"/>
+                <Height id="24" val="16"/>
+                <Font id="50" val="11"/>
                 <Style id="63" val="7"/>
                 <EnableRTF id="69"/>
                 <_Orientation id="143"/>
@@ -449,11 +474,11 @@
             <Control _test_id="11" id="11">
               <PropertyList model="CTRL_GUI0_STATIC">
                 <Text id="19" valUnicode="ISBN"/>
-                <X id="21" val="10"/>
-                <Y id="22" val="63"/>
+                <X id="21" val="17"/>
+                <Y id="22" val="109"/>
                 <Width id="23" val="30"/>
-                <Height id="24" val="11"/>
-                <Font id="50" val="1"/>
+                <Height id="24" val="16"/>
+                <Font id="50" val="11"/>
                 <Style id="63" val="7"/>
                 <EnableRTF id="69"/>
                 <_Orientation id="143"/>
@@ -464,12 +489,13 @@
                 <Model ID="MODEL_GUI_INT" id="1">
                   <Var FieldID="11"/>
                 </Model>
-                <X id="21" val="50"/>
-                <Y id="22" val="63"/>
+                <X id="21" val="62"/>
+                <Y id="22" val="109"/>
                 <Width id="23" val="76"/>
-                <Height id="24" val="11"/>
+                <Height id="24" val="16"/>
                 <Data FieldID="11" id="43"/>
                 <ControlName id="46" val="txtISBN"/>
+                <Font id="50" val="12"/>
                 <_Orientation id="143"/>
                 <TabOrder id="314" val="3"/>
               </PropertyList>
@@ -479,12 +505,13 @@
                 <Model ID="MODEL_GUI_INT" id="1">
                   <Var FieldID="10"/>
                 </Model>
-                <X id="21" val="50"/>
-                <Y id="22" val="46"/>
-                <Width id="23" val="254"/>
-                <Height id="24" val="12"/>
+                <X id="21" val="62"/>
+                <Y id="22" val="86"/>
+                <Width id="23" val="257"/>
+                <Height id="24" val="18"/>
                 <Data FieldID="10" id="43"/>
                 <ControlName id="46" val="txtAutor"/>
+                <Font id="50" val="12"/>
                 <_Orientation id="143"/>
                 <SourceTable comp="-1" id="150" obj="1"/>
                 <TabOrder id="314" val="2"/>
@@ -495,12 +522,13 @@
             </Control>
             <Control _test_id="7" id="7">
               <PropertyList model="CTRL_GUI0_PUSH_BUTTON">
-                <X id="21" val="162"/>
-                <Y id="22" val="82"/>
+                <X id="21" val="174"/>
+                <Y id="22" val="132"/>
                 <Width id="23" val="69"/>
-                <Height id="24" val="14"/>
+                <Height id="24" val="16"/>
                 <Data FieldID="8" id="43"/>
                 <ControlName id="46" val="pbSalvar"/>
+                <Font id="50" val="12"/>
                 <RaiseEvent id="234">
                   <EventType val="I"/>
                   <InternalEventID val="34"/>
@@ -511,12 +539,13 @@
             </Control>
             <Control _test_id="5" id="5">
               <PropertyList model="CTRL_GUI0_PUSH_BUTTON">
-                <X id="21" val="235"/>
-                <Y id="22" val="82"/>
+                <X id="21" val="248"/>
+                <Y id="22" val="132"/>
                 <Width id="23" val="69"/>
-                <Height id="24" val="14"/>
+                <Height id="24" val="16"/>
                 <Data FieldID="9" id="43"/>
                 <ControlName id="46" val="pbAvancar"/>
+                <Font id="50" val="12"/>
                 <RaiseEvent id="234">
                   <EventType val="I"/>
                   <InternalEventID val="14"/>

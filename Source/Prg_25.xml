@@ -26,7 +26,7 @@
           <Offline val="N"/>
           <FormType val="N"/>
           <DotNetObjectExists val="N"/>
-          <LastModified _date="736065" _time="77372" date="11/04/2016" time="21:29:32"/>
+          <LastModified _date="736078" _time="66581" date="24/04/2016" time="18:29:41"/>
         </Header>
         <ItemIsn val="5"/>
         <Resource>
@@ -159,7 +159,7 @@
                   <_ControlIndex val="1"/>
                   <_OleSubformIdx val="1"/>
                   <_TabbingOrderDspIndex val="1"/>
-                  <_DitIndexForToolkit val="2"/>
+                  <_DitIndexForToolkit val="4"/>
                   <DIFF_UPDATE val="T"/>
                   <Condition val="Y"/>
                   <Modifier val="S"/>
@@ -176,7 +176,7 @@
                   <_ControlIndex val="1"/>
                   <_OleSubformIdx val="1"/>
                   <_TabbingOrderDspIndex val="1"/>
-                  <_DitIndexForToolkit val="4"/>
+                  <_DitIndexForToolkit val="6"/>
                   <DIFF_UPDATE val="T"/>
                   <Condition val="Y"/>
                   <Modifier val="S"/>
@@ -199,7 +199,7 @@
                   <_ControlIndex val="1"/>
                   <_OleSubformIdx val="1"/>
                   <_TabbingOrderDspIndex val="1"/>
-                  <_DitIndexForToolkit val="5"/>
+                  <_DitIndexForToolkit val="7"/>
                   <DIFF_UPDATE val="T"/>
                   <Condition val="Y"/>
                   <Modifier val="S"/>
@@ -211,18 +211,16 @@
           <LogicUnit id="3" propagate="78">
             <Level val="H"/>
             <Type val="U"/>
-            <_DspTemplate val="-1"/>
+            <_DspTemplate val="0"/>
             <_HeaderPosition val="6"/>
             <Scope val="T"/>
             <EngineDirective val="S"/>
             <ShowMessage val="Y"/>
             <Condition val="89"/>
             <Event>
-              <EventType val="I"/>
-              <InternalEventID val="34"/>
-              <PublicObject comp="-1"/>
+              <EventType val="U"/>
+              <PublicObject comp="-1" obj="1"/>
             </Event>
-            <TXT val="pbConfirmar"/>
             <Expanded val="1"/>
             <LogicLines>
               <LogicLine>
@@ -265,23 +263,77 @@
               </LogicLine>
             </LogicLines>
           </LogicUnit>
+          <LogicUnit id="4" propagate="78">
+            <Level val="H"/>
+            <Type val="U"/>
+            <_DspTemplate val="0"/>
+            <_HeaderPosition val="8"/>
+            <Scope val="S"/>
+            <EngineDirective val="S"/>
+            <ShowMessage val="Y"/>
+            <Condition val="89"/>
+            <Event>
+              <EventType val="S"/>
+              <KeyCombinationID val="162"/>
+              <PublicObject comp="-1"/>
+            </Event>
+            <Expanded val="1"/>
+            <LogicLines>
+              <LogicLine>
+                <RaiseEvent FlowIsn="11">
+                  <Event>
+                    <EventType val="U"/>
+                    <PublicObject comp="-1" obj="1"/>
+                  </Event>
+                  <Wait val="78"/>
+                  <Condition val="Y"/>
+                  <Modifier val="B"/>
+                  <Direction val="C"/>
+                </RaiseEvent>
+              </LogicLine>
+            </LogicLines>
+          </LogicUnit>
         </TaskLogic>
         <TaskForms>
-          <FormEntry _last_isn="6" _last_test_id="6" id="1">
+          <FormEntry _last_isn="8" _last_test_id="8" id="1">
             <PropertyList model="FORM_GUI0">
-              <Width id="23" val="258"/>
-              <Height id="24" val="66"/>
+              <Width id="23" val="244"/>
+              <Height id="24" val="122"/>
               <_Comment id="218"/>
+              <StartupPosition id="275" val="4"/>
               <FormName id="311" valUnicode="View - Login"/>
             </PropertyList>
+            <Control _test_id="7" id="7">
+              <PropertyList model="CTRL_GUI0_STATIC">
+                <Text id="19"/>
+                <Width id="23" val="244"/>
+                <Height id="24" val="37"/>
+                <Color id="51" val="5"/>
+                <Style id="63" val="7"/>
+                <EnableRTF id="69"/>
+                <_Orientation id="143"/>
+              </PropertyList>
+            </Control>
+            <Control _test_id="8" id="8">
+              <PropertyList model="CTRL_GUI0_IMAGE">
+                <X id="21" val="7"/>
+                <Y id="22" val="7"/>
+                <Width id="23" val="30"/>
+                <Height id="24" val="22"/>
+                <Color id="51" val="5"/>
+                <DefaultImageFile id="88" val="img\login.png"/>
+                <ImageStyle id="89" val="3"/>
+                <TabOrder id="314" val="1"/>
+              </PropertyList>
+            </Control>
             <Control _test_id="2" id="2">
               <PropertyList model="CTRL_GUI0_STATIC">
                 <Text id="19" valUnicode="Usuário"/>
-                <X id="21" val="10"/>
-                <Y id="22" val="8"/>
-                <Width id="23" val="39"/>
-                <Height id="24" val="12"/>
-                <Font id="50" val="1"/>
+                <X id="21" val="12"/>
+                <Y id="22" val="47"/>
+                <Width id="23" val="54"/>
+                <Height id="24" val="16"/>
+                <Font id="50" val="11"/>
                 <Style id="63" val="7"/>
                 <EnableRTF id="69"/>
                 <_Orientation id="143"/>
@@ -292,24 +344,25 @@
                 <Model ID="MODEL_GUI_INT" id="1">
                   <Var FieldID="1"/>
                 </Model>
-                <X id="21" val="49"/>
-                <Y id="22" val="8"/>
-                <Width id="23" val="200"/>
-                <Height id="24" val="12"/>
+                <X id="21" val="66"/>
+                <Y id="22" val="47"/>
+                <Width id="23" val="165"/>
+                <Height id="24" val="16"/>
                 <Data FieldID="1" id="43"/>
                 <ControlName id="46" val="txtUsuario"/>
+                <Font id="50" val="12"/>
                 <_Orientation id="143"/>
-                <TabOrder id="314" val="1"/>
+                <TabOrder id="314" val="2"/>
               </PropertyList>
             </Control>
             <Control _test_id="4" id="4">
               <PropertyList model="CTRL_GUI0_STATIC">
                 <Text id="19" valUnicode="Senha"/>
-                <X id="21" val="10"/>
-                <Y id="22" val="23"/>
+                <X id="21" val="12"/>
+                <Y id="22" val="67"/>
                 <Width id="23" val="35"/>
-                <Height id="24" val="12"/>
-                <Font id="50" val="1"/>
+                <Height id="24" val="16"/>
+                <Font id="50" val="11"/>
                 <Style id="63" val="7"/>
                 <EnableRTF id="69"/>
                 <_Orientation id="143"/>
@@ -320,15 +373,16 @@
                 <Model ID="MODEL_GUI_INT" id="1">
                   <Var FieldID="2"/>
                 </Model>
-                <X id="21" val="49"/>
-                <Y id="22" val="23"/>
-                <Width id="23" val="200"/>
-                <Height id="24" val="12"/>
+                <X id="21" val="66"/>
+                <Y id="22" val="67"/>
+                <Width id="23" val="165"/>
+                <Height id="24" val="16"/>
                 <Data FieldID="2" id="43"/>
                 <ControlName id="46" val="txtSenha"/>
+                <Font id="50" val="12"/>
                 <PasswordEdit id="85" val="Y"/>
                 <_Orientation id="143"/>
-                <TabOrder id="314" val="2"/>
+                <TabOrder id="314" val="3"/>
               </PropertyList>
             </Control>
             <Control _test_id="5" id="5">
@@ -336,22 +390,28 @@
                 <Model ID="MODEL_GUI_INT" id="1">
                   <Var FieldID="3"/>
                 </Model>
-                <X id="21" val="167"/>
-                <Y id="22" val="44"/>
+                <X id="21" val="150"/>
+                <Y id="22" val="93"/>
                 <Width id="23" val="81"/>
-                <Height id="24" val="14"/>
+                <Height id="24" val="16"/>
                 <Data FieldID="3" id="43"/>
                 <ControlName id="46" val="pbConfirmar"/>
+                <Font id="50" val="12"/>
                 <RaiseEvent id="234">
-                  <EventType val="I"/>
-                  <InternalEventID val="34"/>
-                  <PublicObject comp="-1"/>
+                  <EventType val="U"/>
+                  <PublicObject comp="-1" obj="1"/>
                 </RaiseEvent>
-                <TabOrder id="314" val="3"/>
+                <TabOrder id="314" val="4"/>
               </PropertyList>
             </Control>
           </FormEntry>
         </TaskForms>
+        <EVNT DESC="selectU" FORCE_EXIT="C" id="1">
+          <Event>
+            <EventType val="N"/>
+            <PublicObject comp="-1"/>
+          </Event>
+        </EVNT>
       </Task>
     </Programs>
   </ProgramsRepository>
