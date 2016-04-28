@@ -31,7 +31,7 @@
           <Offline val="N"/>
           <FormType val="N"/>
           <DotNetObjectExists val="N"/>
-          <LastModified _date="736017" _time="74396" date="23/02/2016" time="20:39:56"/>
+          <LastModified _date="736081" _time="72327" date="27/04/2016" time="20:05:27"/>
         </Header>
         <ItemIsn val="9"/>
         <Resource>
@@ -172,7 +172,7 @@
                   <_ControlIndex val="1"/>
                   <_OleSubformIdx val="1"/>
                   <_TabbingOrderDspIndex val="1"/>
-                  <_DitIndexForToolkit val="2"/>
+                  <_DitIndexForToolkit val="4"/>
                   <DIFF_UPDATE val="T"/>
                   <Condition val="Y"/>
                   <Modifier val="S"/>
@@ -189,7 +189,7 @@
                   <_ControlIndex val="1"/>
                   <_OleSubformIdx val="1"/>
                   <_TabbingOrderDspIndex val="1"/>
-                  <_DitIndexForToolkit val="4"/>
+                  <_DitIndexForToolkit val="6"/>
                   <DIFF_UPDATE val="T"/>
                   <Condition val="Y"/>
                   <Modifier val="S"/>
@@ -212,7 +212,7 @@
                   <_ControlIndex val="1"/>
                   <_OleSubformIdx val="1"/>
                   <_TabbingOrderDspIndex val="1"/>
-                  <_DitIndexForToolkit val="5"/>
+                  <_DitIndexForToolkit val="7"/>
                   <DIFF_UPDATE val="T"/>
                   <Condition val="Y"/>
                   <Modifier val="S"/>
@@ -229,7 +229,7 @@
                   <_ControlIndex val="1"/>
                   <_OleSubformIdx val="1"/>
                   <_TabbingOrderDspIndex val="1"/>
-                  <_DitIndexForToolkit val="6"/>
+                  <_DitIndexForToolkit val="8"/>
                   <DIFF_UPDATE val="T"/>
                   <Condition val="Y"/>
                   <Modifier val="S"/>
@@ -297,23 +297,46 @@
           </LogicUnit>
         </TaskLogic>
         <TaskForms>
-          <FormEntry _last_isn="7" _last_test_id="7" id="1">
+          <FormEntry _last_isn="9" _last_test_id="9" id="1">
             <PropertyList model="FORM_GUI0">
               <Width id="23" val="315"/>
-              <Height id="24" val="85"/>
+              <Height id="24" val="125"/>
               <_Comment id="218"/>
               <StartupPosition id="275" val="4"/>
               <FormName id="311" valUnicode="Autores - Edição"/>
               <_TabbingOrder id="318" val="2"/>
             </PropertyList>
+            <Control _test_id="9" id="9">
+              <PropertyList model="CTRL_GUI0_STATIC">
+                <Text id="19"/>
+                <Width id="23" val="315"/>
+                <Height id="24" val="37"/>
+                <Color id="51" val="5"/>
+                <Style id="63" val="7"/>
+                <EnableRTF id="69"/>
+                <_Orientation id="143"/>
+              </PropertyList>
+            </Control>
+            <Control _test_id="8" id="8">
+              <PropertyList model="CTRL_GUI0_IMAGE">
+                <X id="21" val="16"/>
+                <Y id="22" val="4"/>
+                <Width id="23" val="39"/>
+                <Height id="24" val="28"/>
+                <Color id="51" val="5"/>
+                <DefaultImageFile id="88" val="img\autor.png"/>
+                <ImageStyle id="89" val="3"/>
+                <TabOrder id="314" val="8"/>
+              </PropertyList>
+            </Control>
             <Control _test_id="2" id="2">
               <PropertyList model="CTRL_GUI0_STATIC">
-                <Text id="19" valUnicode="id"/>
-                <X id="21" val="10"/>
-                <Y id="22" val="10"/>
-                <Width id="23" val="8"/>
-                <Height id="24" val="9"/>
-                <Font id="50" val="1"/>
+                <Text id="19" valUnicode="ID"/>
+                <X id="21" val="17"/>
+                <Y id="22" val="47"/>
+                <Width id="23" val="22"/>
+                <Height id="24" val="16"/>
+                <Font id="50" val="11"/>
                 <Style id="63" val="7"/>
                 <EnableRTF id="69"/>
                 <_Orientation id="143"/>
@@ -324,12 +347,13 @@
                 <Model ID="MODEL_GUI_INT" id="1">
                   <Var FieldID="3"/>
                 </Model>
-                <X id="21" val="50"/>
-                <Y id="22" val="10"/>
+                <X id="21" val="62"/>
+                <Y id="22" val="47"/>
                 <Width id="23" val="50"/>
-                <Height id="24" val="10"/>
+                <Height id="24" val="16"/>
                 <Data FieldID="3" id="43"/>
                 <ControlName id="46" val="id"/>
+                <Font id="50" val="12"/>
                 <Modifiable id="53"/>
                 <HorizontalAlignment id="65" val="1"/>
                 <_Orientation id="143"/>
@@ -339,12 +363,12 @@
             </Control>
             <Control _test_id="4" id="4">
               <PropertyList model="CTRL_GUI0_STATIC">
-                <Text id="19" valUnicode="nome"/>
-                <X id="21" val="10"/>
-                <Y id="22" val="31"/>
-                <Width id="23" val="22"/>
-                <Height id="24" val="9"/>
-                <Font id="50" val="1"/>
+                <Text id="19" valUnicode="Nome"/>
+                <X id="21" val="17"/>
+                <Y id="22" val="68"/>
+                <Width id="23" val="35"/>
+                <Height id="24" val="16"/>
+                <Font id="50" val="11"/>
                 <Style id="63" val="7"/>
                 <EnableRTF id="69"/>
                 <_Orientation id="143"/>
@@ -355,24 +379,26 @@
                 <Model ID="MODEL_GUI_INT" id="1">
                   <Var FieldID="4"/>
                 </Model>
-                <X id="21" val="50"/>
-                <Y id="22" val="31"/>
-                <Width id="23" val="255"/>
-                <Height id="24" val="10"/>
+                <X id="21" val="62"/>
+                <Y id="22" val="68"/>
+                <Width id="23" val="240"/>
+                <Height id="24" val="16"/>
                 <Data FieldID="4" id="43"/>
                 <ControlName id="46" val="nome"/>
+                <Font id="50" val="12"/>
                 <_Orientation id="143"/>
                 <TabOrder id="314" val="1"/>
               </PropertyList>
             </Control>
             <Control _test_id="7" id="7">
               <PropertyList model="CTRL_GUI0_PUSH_BUTTON">
-                <X id="21" val="162"/>
-                <Y id="22" val="57"/>
-                <Width id="23" val="69"/>
-                <Height id="24" val="14"/>
+                <X id="21" val="152"/>
+                <Y id="22" val="95"/>
+                <Width id="23" val="73"/>
+                <Height id="24" val="15"/>
                 <Data FieldID="8" id="43"/>
                 <ControlName id="46" val="pbSalvar"/>
+                <Font id="50" val="12"/>
                 <RaiseEvent id="234">
                   <EventType val="I"/>
                   <InternalEventID val="34"/>
@@ -383,12 +409,13 @@
             </Control>
             <Control _test_id="5" id="5">
               <PropertyList model="CTRL_GUI0_PUSH_BUTTON">
-                <X id="21" val="236"/>
-                <Y id="22" val="57"/>
-                <Width id="23" val="69"/>
-                <Height id="24" val="14"/>
+                <X id="21" val="230"/>
+                <Y id="22" val="95"/>
+                <Width id="23" val="73"/>
+                <Height id="24" val="15"/>
                 <Data FieldID="9" id="43"/>
                 <ControlName id="46" val="pbAvancar"/>
+                <Font id="50" val="12"/>
                 <RaiseEvent id="234">
                   <EventType val="I"/>
                   <InternalEventID val="14"/>

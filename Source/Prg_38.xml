@@ -26,7 +26,7 @@
           <Offline val="N"/>
           <FormType val="N"/>
           <DotNetObjectExists val="N"/>
-          <LastModified _date="736067" _time="71367" date="13/04/2016" time="19:49:27"/>
+          <LastModified _date="736081" _time="77380" date="27/04/2016" time="21:29:40"/>
         </Header>
         <ItemIsn val="14"/>
         <Resource>
@@ -176,7 +176,7 @@
                   <_ControlIndex val="1"/>
                   <_OleSubformIdx val="1"/>
                   <_TabbingOrderDspIndex val="1"/>
-                  <_DitIndexForToolkit val="7"/>
+                  <_DitIndexForToolkit val="9"/>
                   <DIFF_UPDATE val="T"/>
                   <Condition val="Y"/>
                   <Modifier val="S"/>
@@ -193,7 +193,7 @@
                   <_ControlIndex val="1"/>
                   <_OleSubformIdx val="1"/>
                   <_TabbingOrderDspIndex val="1"/>
-                  <_DitIndexForToolkit val="8"/>
+                  <_DitIndexForToolkit val="10"/>
                   <DIFF_UPDATE val="T"/>
                   <Condition val="Y"/>
                   <Modifier val="S"/>
@@ -210,7 +210,7 @@
                   <_ControlIndex val="1"/>
                   <_OleSubformIdx val="1"/>
                   <_TabbingOrderDspIndex val="1"/>
-                  <_DitIndexForToolkit val="9"/>
+                  <_DitIndexForToolkit val="11"/>
                   <DIFF_UPDATE val="T"/>
                   <Condition val="Y"/>
                   <Modifier val="S"/>
@@ -227,7 +227,7 @@
                   <_ControlIndex val="1"/>
                   <_OleSubformIdx val="1"/>
                   <_TabbingOrderDspIndex val="1"/>
-                  <_DitIndexForToolkit val="11"/>
+                  <_DitIndexForToolkit val="13"/>
                   <DIFF_UPDATE val="T"/>
                   <Condition val="Y"/>
                   <Modifier val="S"/>
@@ -244,7 +244,7 @@
                   <_ControlIndex val="1"/>
                   <_OleSubformIdx val="1"/>
                   <_TabbingOrderDspIndex val="1"/>
-                  <_DitIndexForToolkit val="10"/>
+                  <_DitIndexForToolkit val="12"/>
                   <DIFF_UPDATE val="T"/>
                   <Condition val="Y"/>
                   <Modifier val="S"/>
@@ -267,7 +267,7 @@
                   <_ControlIndex val="1"/>
                   <_OleSubformIdx val="1"/>
                   <_TabbingOrderDspIndex val="1"/>
-                  <_DitIndexForToolkit val="13"/>
+                  <_DitIndexForToolkit val="15"/>
                   <DIFF_UPDATE val="T"/>
                   <PartOfDataview val="N"/>
                   <Condition val="Y"/>
@@ -285,7 +285,7 @@
                   <_ControlIndex val="1"/>
                   <_OleSubformIdx val="1"/>
                   <_TabbingOrderDspIndex val="1"/>
-                  <_DitIndexForToolkit val="14"/>
+                  <_DitIndexForToolkit val="16"/>
                   <DIFF_UPDATE val="T"/>
                   <PartOfDataview val="N"/>
                   <Condition val="Y"/>
@@ -303,7 +303,7 @@
                   <_ControlIndex val="1"/>
                   <_OleSubformIdx val="1"/>
                   <_TabbingOrderDspIndex val="1"/>
-                  <_DitIndexForToolkit val="12"/>
+                  <_DitIndexForToolkit val="14"/>
                   <DIFF_UPDATE val="T"/>
                   <PartOfDataview val="N"/>
                   <Condition val="Y"/>
@@ -511,10 +511,10 @@
           </LogicUnit>
         </TaskLogic>
         <TaskForms>
-          <FormEntry _last_isn="52" _last_test_id="52" id="1">
+          <FormEntry _last_isn="54" _last_test_id="54" id="1">
             <PropertyList model="FORM_GUI0">
-              <Width id="23" val="603"/>
-              <Height id="24" val="212"/>
+              <Width id="23" val="612"/>
+              <Height id="24" val="259"/>
               <FormUnits id="33" val="1"/>
               <VerticalFactor id="34" val="8"/>
               <HorizontalFactor id="35" val="4"/>
@@ -525,52 +525,82 @@
               <FormName id="311" valUnicode="View - Multa"/>
               <_TabbingOrder id="318" val="1"/>
             </PropertyList>
+            <Control _test_id="54" id="54">
+              <PropertyList model="CTRL_GUI0_STATIC">
+                <Text id="19"/>
+                <Width id="23" val="612"/>
+                <Height id="24" val="37"/>
+                <Color id="51" val="5"/>
+                <Style id="63" val="7"/>
+                <EnableRTF id="69"/>
+                <_Orientation id="143"/>
+              </PropertyList>
+            </Control>
+            <Control _test_id="53" id="53">
+              <PropertyList model="CTRL_GUI0_IMAGE">
+                <X id="21" val="16"/>
+                <Y id="22" val="4"/>
+                <Width id="23" val="39"/>
+                <Height id="24" val="28"/>
+                <Color id="51" val="5"/>
+                <DefaultImageFile id="88" val="img\multa.png"/>
+                <ImageStyle id="89" val="3"/>
+                <TabOrder id="314" val="1"/>
+              </PropertyList>
+            </Control>
             <Control _test_id="36" id="36">
               <PropertyList model="CTRL_GUI0_TABLE">
-                <X id="21" val="10"/>
-                <Y id="22" val="7"/>
-                <Width id="23" val="589"/>
+                <X id="21" val="12"/>
+                <Y id="22" val="53"/>
+                <Width id="23" val="618"/>
                 <Height id="24" val="183"/>
-                <TitleHeight id="79" val="12"/>
-                <RowHeight id="80" val="13"/>
+                <TitleHeight id="79" val="16"/>
+                <RowHeight id="80" val="20"/>
                 <Elements id="81" val="5"/>
                 <_WindowWidth id="241" val="589"/>
+                <SetTableColorBy id="428" val="2"/>
+                <AlternatingBgColor id="429" val="6"/>
               </PropertyList>
             </Control>
             <Control ISN_FATHER="36" PDOD="128" _test_id="37" id="37">
               <PropertyList model="CTRL_GUI0_COLUMN">
                 <Width id="23" val="63"/>
                 <ControlLayer id="25" val="1"/>
+                <Font id="50" val="12"/>
                 <Sortable id="134" val="Y"/>
-                <ColumnTitle id="139" valUnicode="id"/>
+                <ColumnTitle id="139" valUnicode="ID"/>
               </PropertyList>
             </Control>
             <Control ISN_FATHER="36" PDOD="128" _test_id="39" id="39">
               <PropertyList model="CTRL_GUI0_COLUMN">
                 <Width id="23" val="115"/>
                 <ControlLayer id="25" val="2"/>
-                <ColumnTitle id="139" valUnicode="valor"/>
+                <Font id="50" val="12"/>
+                <ColumnTitle id="139" valUnicode="Valor"/>
               </PropertyList>
             </Control>
             <Control ISN_FATHER="36" PDOD="128" _test_id="41" id="41">
               <PropertyList model="CTRL_GUI0_COLUMN">
-                <Width id="23" val="63"/>
+                <Width id="23" val="74"/>
                 <ControlLayer id="25" val="3"/>
-                <ColumnTitle id="139" valUnicode="vencimento"/>
+                <Font id="50" val="12"/>
+                <ColumnTitle id="139" valUnicode="Vencimento"/>
               </PropertyList>
             </Control>
             <Control ISN_FATHER="36" PDOD="128" _test_id="48" id="48">
               <PropertyList model="CTRL_GUI0_COLUMN">
-                <Width id="23" val="37"/>
+                <Width id="23" val="56"/>
                 <ControlLayer id="25" val="4"/>
-                <ColumnTitle id="139" valUnicode="abonado"/>
+                <Font id="50" val="12"/>
+                <ColumnTitle id="139" valUnicode="Abonado"/>
               </PropertyList>
             </Control>
             <Control ISN_FATHER="36" PDOD="128" _test_id="51" id="51">
               <PropertyList model="CTRL_GUI0_COLUMN">
-                <Width id="23" val="295"/>
+                <Width id="23" val="265"/>
                 <ControlLayer id="25" val="5"/>
-                <ColumnTitle id="139" valUnicode="observacao"/>
+                <Font id="50" val="12"/>
+                <ColumnTitle id="139" valUnicode="Observação"/>
               </PropertyList>
             </Control>
             <Control ISN_FATHER="36" _test_id="38" id="38">
@@ -579,16 +609,17 @@
                   <Var FieldID="1"/>
                 </Model>
                 <Placement bottom="100" id="20" right="100"/>
-                <X id="21" val="14"/>
-                <Y id="22" val="22"/>
+                <X id="21" val="16"/>
+                <Y id="22" val="72"/>
                 <Width id="23" val="56"/>
-                <Height id="24" val="10"/>
+                <Height id="24" val="13"/>
                 <ControlLayer id="25" val="1"/>
                 <Data FieldID="1" id="43"/>
                 <ControlName id="46" val="id"/>
+                <Font id="50" val="12"/>
                 <Style id="63" val="1"/>
                 <_Orientation id="143"/>
-                <TabOrder id="314" val="1"/>
+                <TabOrder id="314" val="2"/>
                 <Border id="452"/>
               </PropertyList>
             </Control>
@@ -598,16 +629,17 @@
                   <Var FieldID="2"/>
                 </Model>
                 <Placement bottom="100" id="20" right="100"/>
-                <X id="21" val="77"/>
-                <Y id="22" val="22"/>
+                <X id="21" val="79"/>
+                <Y id="22" val="72"/>
                 <Width id="23" val="107"/>
-                <Height id="24" val="10"/>
+                <Height id="24" val="13"/>
                 <ControlLayer id="25" val="2"/>
                 <Data FieldID="2" id="43"/>
                 <ControlName id="46" val="valor"/>
+                <Font id="50" val="12"/>
                 <Style id="63" val="1"/>
                 <_Orientation id="143"/>
-                <TabOrder id="314" val="2"/>
+                <TabOrder id="314" val="3"/>
                 <Border id="452"/>
               </PropertyList>
             </Control>
@@ -617,16 +649,17 @@
                   <Var FieldID="9"/>
                 </Model>
                 <Placement bottom="100" id="20" right="100"/>
-                <X id="21" val="192"/>
-                <Y id="22" val="22"/>
+                <X id="21" val="194"/>
+                <Y id="22" val="72"/>
                 <Width id="23" val="59"/>
-                <Height id="24" val="10"/>
+                <Height id="24" val="13"/>
                 <ControlLayer id="25" val="3"/>
                 <Data FieldID="9" id="43"/>
                 <ControlName id="46" val="vencimento"/>
+                <Font id="50" val="12"/>
                 <Style id="63" val="1"/>
                 <_Orientation id="143"/>
-                <TabOrder id="314" val="3"/>
+                <TabOrder id="314" val="4"/>
                 <Border id="452"/>
               </PropertyList>
             </Control>
@@ -636,33 +669,35 @@
                   <Var FieldID="11"/>
                 </Model>
                 <Placement bottom="100" id="20" right="100"/>
-                <X id="21" val="292"/>
-                <Y id="22" val="22"/>
+                <X id="21" val="324"/>
+                <Y id="22" val="72"/>
                 <Width id="23" val="290"/>
-                <Height id="24" val="10"/>
+                <Height id="24" val="13"/>
                 <ControlLayer id="25" val="5"/>
                 <Data FieldID="11" id="43"/>
                 <ControlName id="46" val="observacao"/>
+                <Font id="50" val="12"/>
                 <Style id="63" val="1"/>
                 <_Orientation id="143"/>
-                <TabOrder id="314" val="5"/>
+                <TabOrder id="314" val="6"/>
                 <Border id="452"/>
               </PropertyList>
             </Control>
             <Control ISN_FATHER="36" PDOD="192" _test_id="50" id="50">
               <PropertyList model="CTRL_GUI0_CHECKBOX">
                 <Placement bottom="100" id="20" right="100"/>
-                <X id="21" val="266"/>
-                <Y id="22" val="22"/>
+                <X id="21" val="289"/>
+                <Y id="22" val="72"/>
                 <Width id="23" val="10"/>
-                <Height id="24" val="9"/>
+                <Height id="24" val="13"/>
                 <ControlLayer id="25" val="4"/>
                 <Data FieldID="10" id="43"/>
                 <Text id="45"/>
                 <ControlName id="46" val="abonado"/>
+                <Font id="50" val="12"/>
                 <Style id="63" val="1"/>
                 <_Orientation id="143"/>
-                <TabOrder id="314" val="4"/>
+                <TabOrder id="314" val="5"/>
               </PropertyList>
             </Control>
             <Control _test_id="13" id="13">
@@ -671,7 +706,7 @@
                   <Var FieldID="7"/>
                 </Model>
                 <X id="21" val="328"/>
-                <Y id="22" val="194"/>
+                <Y id="22" val="240"/>
                 <Width id="23" val="87"/>
                 <Height id="24" val="14"/>
                 <Data FieldID="7" id="43"/>
@@ -681,7 +716,7 @@
                   <InternalEventID val="34"/>
                   <PublicObject comp="-1"/>
                 </RaiseEvent>
-                <TabOrder id="314" val="6"/>
+                <TabOrder id="314" val="7"/>
               </PropertyList>
             </Control>
             <Control _test_id="10" id="10">
@@ -690,7 +725,7 @@
                   <Var FieldID="4"/>
                 </Model>
                 <X id="21" val="420"/>
-                <Y id="22" val="194"/>
+                <Y id="22" val="240"/>
                 <Width id="23" val="87"/>
                 <Height id="24" val="14"/>
                 <Data FieldID="4" id="43"/>
@@ -700,7 +735,7 @@
                   <InternalEventID val="34"/>
                   <PublicObject comp="-1"/>
                 </RaiseEvent>
-                <TabOrder id="314" val="7"/>
+                <TabOrder id="314" val="8"/>
               </PropertyList>
             </Control>
             <Control _test_id="11" id="11">
@@ -709,7 +744,7 @@
                   <Var FieldID="5"/>
                 </Model>
                 <X id="21" val="512"/>
-                <Y id="22" val="194"/>
+                <Y id="22" val="240"/>
                 <Width id="23" val="87"/>
                 <Height id="24" val="14"/>
                 <Data FieldID="5" id="43"/>
@@ -719,7 +754,7 @@
                   <InternalEventID val="34"/>
                   <PublicObject comp="-1"/>
                 </RaiseEvent>
-                <TabOrder id="314" val="8"/>
+                <TabOrder id="314" val="9"/>
               </PropertyList>
             </Control>
           </FormEntry>

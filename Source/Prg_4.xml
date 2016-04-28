@@ -26,7 +26,7 @@
           <Offline val="N"/>
           <FormType val="N"/>
           <DotNetObjectExists val="N"/>
-          <LastModified _date="736023" _time="72267" date="29/02/2016" time="20:04:27"/>
+          <LastModified _date="736081" _time="72150" date="27/04/2016" time="20:02:30"/>
         </Header>
         <ItemIsn val="8"/>
         <Resource>
@@ -498,7 +498,7 @@
           <FormEntry _last_isn="13" _last_test_id="13" id="1">
             <PropertyList model="FORM_GUI0">
               <Width id="23" val="384"/>
-              <Height id="24" val="218"/>
+              <Height id="24" val="223"/>
               <FormUnits id="33" val="1"/>
               <VerticalFactor id="34" val="8"/>
               <HorizontalFactor id="35" val="4"/>
@@ -516,25 +516,30 @@
                 <Y id="22" val="8"/>
                 <Width id="23" val="405"/>
                 <Height id="24" val="182"/>
-                <TitleHeight id="79" val="12"/>
-                <RowHeight id="80" val="13"/>
+                <TitleHeight id="79" val="16"/>
+                <RowHeight id="80" val="20"/>
                 <Elements id="81" val="2"/>
                 <_WindowWidth id="241" val="372"/>
+                <RowHighlightColor id="410" val="5"/>
+                <SetTableColorBy id="428" val="2"/>
+                <AlternatingBgColor id="429" val="6"/>
               </PropertyList>
             </Control>
             <Control ISN_FATHER="1" PDOD="128" _test_id="4" id="4">
               <PropertyList model="CTRL_GUI0_COLUMN">
                 <Width id="23" val="63"/>
                 <ControlLayer id="25" val="1"/>
+                <Font id="50" val="12"/>
                 <Sortable id="134" val="Y"/>
-                <ColumnTitle id="139" valUnicode="id"/>
+                <ColumnTitle id="139" valUnicode="ID"/>
               </PropertyList>
             </Control>
             <Control ISN_FATHER="1" PDOD="128" _test_id="5" id="5">
               <PropertyList model="CTRL_GUI0_COLUMN">
                 <Width id="23" val="290"/>
                 <ControlLayer id="25" val="2"/>
-                <ColumnTitle id="139" valUnicode="nome"/>
+                <Font id="50" val="12"/>
+                <ColumnTitle id="139" valUnicode="Nome"/>
               </PropertyList>
             </Control>
             <Control ISN_FATHER="1" _test_id="2" id="2">
@@ -544,12 +549,13 @@
                 </Model>
                 <Placement bottom="100" id="20" right="100"/>
                 <X id="21" val="12"/>
-                <Y id="22" val="23"/>
+                <Y id="22" val="27"/>
                 <Width id="23" val="56"/>
-                <Height id="24" val="10"/>
+                <Height id="24" val="12"/>
                 <ControlLayer id="25" val="1"/>
                 <Data FieldID="1" id="43"/>
                 <ControlName id="46" val="id"/>
+                <Font id="50" val="12"/>
                 <Style id="63" val="1"/>
                 <_Orientation id="143"/>
                 <TabOrder id="314" val="1"/>
@@ -563,12 +569,13 @@
                 </Model>
                 <Placement bottom="100" id="20" right="100"/>
                 <X id="21" val="75"/>
-                <Y id="22" val="23"/>
+                <Y id="22" val="27"/>
                 <Width id="23" val="283"/>
-                <Height id="24" val="10"/>
+                <Height id="24" val="12"/>
                 <ControlLayer id="25" val="2"/>
                 <Data FieldID="2" id="43"/>
                 <ControlName id="46" val="nome"/>
+                <Font id="50" val="12"/>
                 <Style id="63" val="1"/>
                 <_Orientation id="143"/>
                 <TabOrder id="314" val="2"/>
@@ -580,12 +587,13 @@
                 <Model ID="MODEL_GUI_INT" id="1">
                   <Var FieldID="7"/>
                 </Model>
-                <X id="21" val="8"/>
-                <Y id="22" val="194"/>
+                <X id="21" val="15"/>
+                <Y id="22" val="198"/>
                 <Width id="23" val="87"/>
-                <Height id="24" val="14"/>
+                <Height id="24" val="16"/>
                 <Data FieldID="7" id="43"/>
                 <ControlName id="46" val="pbExcluir"/>
+                <Font id="50" val="12"/>
                 <RaiseEvent id="234">
                   <EventType val="I"/>
                   <InternalEventID val="34"/>
@@ -599,12 +607,13 @@
                 <Model ID="MODEL_GUI_INT" id="1">
                   <Var FieldID="4"/>
                 </Model>
-                <X id="21" val="100"/>
-                <Y id="22" val="194"/>
+                <X id="21" val="107"/>
+                <Y id="22" val="198"/>
                 <Width id="23" val="87"/>
-                <Height id="24" val="14"/>
+                <Height id="24" val="16"/>
                 <Data FieldID="4" id="43"/>
                 <ControlName id="46" val="pbEditar"/>
+                <Font id="50" val="12"/>
                 <RaiseEvent id="234">
                   <EventType val="I"/>
                   <InternalEventID val="34"/>
@@ -618,12 +627,13 @@
                 <Model ID="MODEL_GUI_INT" id="1">
                   <Var FieldID="5"/>
                 </Model>
-                <X id="21" val="192"/>
-                <Y id="22" val="194"/>
+                <X id="21" val="199"/>
+                <Y id="22" val="198"/>
                 <Width id="23" val="87"/>
-                <Height id="24" val="14"/>
+                <Height id="24" val="16"/>
                 <Data FieldID="5" id="43"/>
                 <ControlName id="46" val="pbCriar"/>
+                <Font id="50" val="12"/>
                 <RaiseEvent id="234">
                   <EventType val="I"/>
                   <InternalEventID val="34"/>
@@ -637,12 +647,13 @@
                 <Model ID="MODEL_GUI_INT" id="1">
                   <Var FieldID="6"/>
                 </Model>
-                <X id="21" val="284"/>
-                <Y id="22" val="194"/>
+                <X id="21" val="291"/>
+                <Y id="22" val="198"/>
                 <Width id="23" val="87"/>
-                <Height id="24" val="14"/>
+                <Height id="24" val="16"/>
                 <Data FieldID="6" id="43"/>
                 <ControlName id="46" val="pbVoltar"/>
+                <Font id="50" val="12"/>
                 <RaiseEvent id="234">
                   <EventType val="I"/>
                   <InternalEventID val="393"/>

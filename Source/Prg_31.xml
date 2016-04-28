@@ -31,7 +31,7 @@
           <Offline val="N"/>
           <FormType val="N"/>
           <DotNetObjectExists val="N"/>
-          <LastModified _date="736071" _time="83573" date="17/04/2016" time="23:12:53"/>
+          <LastModified _date="736081" _time="78834" date="27/04/2016" time="21:53:54"/>
         </Header>
         <ItemIsn val="19"/>
         <Resource>
@@ -1018,7 +1018,7 @@
             <ExpAttribute val="B"/>
           </Expression>
           <Expression id="10">
-            <ExpSyntax val="'Exemplar emprestado'"/>
+            <ExpSyntax val="'Exemplar emprestado, empréstimo não pode ser realizado'"/>
             <ExpAttribute val="A"/>
           </Expression>
           <Expression id="11">
