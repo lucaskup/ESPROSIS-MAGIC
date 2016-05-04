@@ -28,7 +28,7 @@
           <RunProjectAs val="O"/>
           <FormType val="N"/>
           <DotNetObjectExists val="N"/>
-          <LastModified _date="736065" _time="81128" date="11/04/2016" time="22:32:08"/>
+          <LastModified _date="736084" _time="45048" date="30/04/2016" time="12:30:48"/>
         </Header>
         <ItemIsn val="4"/>
         <Resource>
@@ -200,7 +200,6 @@
             </Event>
             <TXT val="buscaUltimoID"/>
             <ReturnValueExpression val="4"/>
-            <Expanded val="1"/>
             <LogicLines>
               <LogicLine>
                 <Select FieldID="2" FlowIsn="3" id="2">

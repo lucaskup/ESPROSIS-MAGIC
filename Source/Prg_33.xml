@@ -26,7 +26,7 @@
           <Offline val="N"/>
           <FormType val="N"/>
           <DotNetObjectExists val="N"/>
-          <LastModified _date="736081" _time="77926" date="27/04/2016" time="21:38:46"/>
+          <LastModified _date="736084" _time="44925" date="30/04/2016" time="12:28:45"/>
         </Header>
         <ItemIsn val="29"/>
         <Resource>
@@ -821,6 +821,7 @@
               <Width id="23" val="706"/>
               <Height id="24" val="286"/>
               <_Comment id="218"/>
+              <StartupPosition id="275" val="4"/>
               <FormName id="311" valUnicode="View - Devolução"/>
               <_TabbingOrder id="318" val="1"/>
             </PropertyList>

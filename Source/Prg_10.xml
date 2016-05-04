@@ -33,7 +33,7 @@
           <Offline val="N"/>
           <FormType val="N"/>
           <DotNetObjectExists val="N"/>
-          <LastModified _date="736078" _time="67485" date="24/04/2016" time="18:44:45"/>
+          <LastModified _date="736084" _time="47979" date="30/04/2016" time="13:19:39"/>
         </Header>
         <ItemIsn val="11"/>
         <Resource>
@@ -367,7 +367,7 @@
         <TaskForms>
           <FormEntry _last_isn="15" _last_test_id="15" id="1">
             <PropertyList model="FORM_GUI0">
-              <Width id="23" val="334"/>
+              <Width id="23" val="415"/>
               <Height id="24" val="159"/>
               <_Comment id="218"/>
               <StartupPosition id="275" val="4"/>
@@ -377,7 +377,7 @@
             <Control _test_id="14" id="14">
               <PropertyList model="CTRL_GUI0_STATIC">
                 <Text id="19"/>
-                <Width id="23" val="334"/>
+                <Width id="23" val="415"/>
                 <Height id="24" val="37"/>
                 <Color id="51" val="5"/>
                 <Style id="63" val="7"/>
@@ -417,7 +417,7 @@
                 </Model>
                 <X id="21" val="62"/>
                 <Y id="22" val="45"/>
-                <Width id="23" val="50"/>
+                <Width id="23" val="71"/>
                 <Height id="24" val="16"/>
                 <Data FieldID="3" id="43"/>
                 <ControlName id="46" val="id"/>
@@ -449,7 +449,7 @@
                 </Model>
                 <X id="21" val="62"/>
                 <Y id="22" val="65"/>
-                <Width id="23" val="255"/>
+                <Width id="23" val="335"/>
                 <Height id="24" val="16"/>
                 <Data FieldID="4" id="43"/>
                 <ControlName id="46" val="nome"/>
@@ -491,7 +491,7 @@
                 </Model>
                 <X id="21" val="62"/>
                 <Y id="22" val="109"/>
-                <Width id="23" val="76"/>
+                <Width id="23" val="170"/>
                 <Height id="24" val="16"/>
                 <Data FieldID="11" id="43"/>
                 <ControlName id="46" val="txtISBN"/>
@@ -507,7 +507,7 @@
                 </Model>
                 <X id="21" val="62"/>
                 <Y id="22" val="86"/>
-                <Width id="23" val="257"/>
+                <Width id="23" val="334"/>
                 <Height id="24" val="18"/>
                 <Data FieldID="10" id="43"/>
                 <ControlName id="46" val="txtAutor"/>
@@ -522,8 +522,8 @@
             </Control>
             <Control _test_id="7" id="7">
               <PropertyList model="CTRL_GUI0_PUSH_BUTTON">
-                <X id="21" val="174"/>
-                <Y id="22" val="132"/>
+                <X id="21" val="254"/>
+                <Y id="22" val="131"/>
                 <Width id="23" val="69"/>
                 <Height id="24" val="16"/>
                 <Data FieldID="8" id="43"/>
@@ -539,8 +539,8 @@
             </Control>
             <Control _test_id="5" id="5">
               <PropertyList model="CTRL_GUI0_PUSH_BUTTON">
-                <X id="21" val="248"/>
-                <Y id="22" val="132"/>
+                <X id="21" val="327"/>
+                <Y id="22" val="131"/>
                 <Width id="23" val="69"/>
                 <Height id="24" val="16"/>
                 <Data FieldID="9" id="43"/>

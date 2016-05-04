@@ -1,0 +1,28 @@
+          1 Dom Casmurro                                                 1 9789724806914
+          2 Memórias Póstumas de Brás Cubas                              1 9788526283275
+          3 Quincas Borba                                                1 9788525422699
+          4 O Alienista                                                  1 9788563163059
+          5 Esaú e Jacó                                                  1 9788532245458
+          6 Sentimento do Mundo                                          2 9788501039446
+          7 A Rosa do Povo                                               2 9788580861976
+          8 Receita de Ano Novo                                          2 9788501085252
+          9 Claro Enigma                                                 2 9788501038524
+         10 A palavra mágica: poesia                                     2 9788501048806
+         11 A Hora da Estrela                                            3 9780586086926
+         12 Perto do Coração Selvagem                                    3 9780811211390
+         13 Um Sopro de Vida                                             3 9788581225890
+         14 O Alquimista                                                 4 9788576653721
+         15 Onze Minutos                                                 4 9780061194924
+         16 Brida                                                        4 9788495980526
+         17 Capitães da Areia                                            5 9788572780841
+         18 Gabriela, Cravo e Canela                                     5 9788476693438
+         19 Dona Flor e Seus Dois Maridos                                5 9788535911701
+         20 Iracema                                                      6 9788570602244
+         21 Senhora                                                      6 9788500005794
+         22 Lucíola                                                      6 9788530906986
+         23 Espumas Flutuantes                                           7 9788525406880
+         24 As duas flores                                               7 9788588719026
+         25 Os escravos                                                  7 9788525406828
+         26 O Continente                                                 8 9788580860351
+         27 Olhai os Lírios do Campo                                     8 9788580860160
+         28 Clarissa                                                     8 9780679413325

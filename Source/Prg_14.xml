@@ -33,7 +33,7 @@
           <Offline val="N"/>
           <FormType val="N"/>
           <DotNetObjectExists val="N"/>
-          <LastModified _date="736081" _time="78689" date="27/04/2016" time="21:51:29"/>
+          <LastModified _date="736084" _time="49005" date="30/04/2016" time="13:36:45"/>
         </Header>
         <ItemIsn val="11"/>
         <Resource>
@@ -495,6 +495,7 @@
                 <Data FieldID="11" id="43"/>
                 <ControlName id="46" val="txtfkLivro"/>
                 <Font id="50" val="12"/>
+                <VisibleLines id="68" val="8"/>
                 <_Orientation id="143"/>
                 <SourceTable comp="-1" id="150" obj="4"/>
                 <TabOrder id="314" val="9"/>

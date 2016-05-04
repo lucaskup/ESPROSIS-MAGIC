@@ -31,7 +31,7 @@
           <Offline val="N"/>
           <FormType val="N"/>
           <DotNetObjectExists val="N"/>
-          <LastModified _date="736067" _time="69421" date="13/04/2016" time="19:17:01"/>
+          <LastModified _date="736084" _time="51122" date="30/04/2016" time="14:12:02"/>
         </Header>
         <ItemIsn val="18"/>
         <Resource>
@@ -158,6 +158,7 @@
         </Information>
         <INT_RECOMP_INFO>
           <v>18</v>
+          <v>14</v>
           <v>5</v>
         </INT_RECOMP_INFO>
         <TaskLogic>
@@ -191,11 +192,11 @@
                   <Type val="V"/>
                   <IsParameter val="Y"/>
                   <_RecomputeLength val="1"/>
-                  <_RecomputeIndex val="2"/>
-                  <_FormIndex val="3"/>
-                  <_ControlIndex val="3"/>
-                  <_OleSubformIdx val="3"/>
-                  <_TabbingOrderDspIndex val="3"/>
+                  <_RecomputeIndex val="3"/>
+                  <_FormIndex val="4"/>
+                  <_ControlIndex val="4"/>
+                  <_OleSubformIdx val="4"/>
+                  <_TabbingOrderDspIndex val="4"/>
                   <DIFF_UPDATE val="T"/>
                   <Condition val="Y"/>
                   <Modifier val="S"/>
@@ -207,11 +208,11 @@
                   <Column val="2"/>
                   <Type val="V"/>
                   <IsParameter val="Y"/>
-                  <_RecomputeIndex val="2"/>
-                  <_FormIndex val="2"/>
-                  <_ControlIndex val="2"/>
-                  <_OleSubformIdx val="2"/>
-                  <_TabbingOrderDspIndex val="2"/>
+                  <_RecomputeIndex val="3"/>
+                  <_FormIndex val="3"/>
+                  <_ControlIndex val="3"/>
+                  <_OleSubformIdx val="3"/>
+                  <_TabbingOrderDspIndex val="3"/>
                   <DIFF_UPDATE val="T"/>
                   <Condition val="Y"/>
                   <Modifier val="S"/>
@@ -223,11 +224,11 @@
                   <Column val="3"/>
                   <Type val="V"/>
                   <IsParameter val="N"/>
-                  <_RecomputeIndex val="2"/>
-                  <_FormIndex val="2"/>
-                  <_ControlIndex val="2"/>
-                  <_OleSubformIdx val="2"/>
-                  <_TabbingOrderDspIndex val="2"/>
+                  <_RecomputeIndex val="3"/>
+                  <_FormIndex val="3"/>
+                  <_ControlIndex val="3"/>
+                  <_OleSubformIdx val="3"/>
+                  <_TabbingOrderDspIndex val="3"/>
                   <DIFF_UPDATE val="T"/>
                   <Condition val="Y"/>
                   <Modifier val="S"/>
@@ -246,11 +247,11 @@
                   <Column val="1"/>
                   <Type val="R"/>
                   <IsParameter val="N"/>
-                  <_RecomputeIndex val="2"/>
-                  <_FormIndex val="2"/>
-                  <_ControlIndex val="2"/>
-                  <_OleSubformIdx val="2"/>
-                  <_TabbingOrderDspIndex val="2"/>
+                  <_RecomputeIndex val="3"/>
+                  <_FormIndex val="3"/>
+                  <_ControlIndex val="3"/>
+                  <_OleSubformIdx val="3"/>
+                  <_TabbingOrderDspIndex val="3"/>
                   <DIFF_UPDATE val="T"/>
                   <Condition val="N"/>
                   <Modifier val="S"/>
@@ -262,11 +263,11 @@
                   <Column val="2"/>
                   <Type val="R"/>
                   <IsParameter val="N"/>
-                  <_RecomputeIndex val="2"/>
-                  <_FormIndex val="2"/>
-                  <_ControlIndex val="2"/>
-                  <_OleSubformIdx val="2"/>
-                  <_TabbingOrderDspIndex val="2"/>
+                  <_RecomputeIndex val="3"/>
+                  <_FormIndex val="3"/>
+                  <_ControlIndex val="3"/>
+                  <_OleSubformIdx val="3"/>
+                  <_TabbingOrderDspIndex val="3"/>
                   <DIFF_UPDATE val="T"/>
                   <Condition val="N"/>
                   <Modifier val="S"/>
@@ -278,11 +279,11 @@
                   <Column val="3"/>
                   <Type val="R"/>
                   <IsParameter val="N"/>
-                  <_RecomputeIndex val="2"/>
-                  <_FormIndex val="2"/>
-                  <_ControlIndex val="2"/>
-                  <_OleSubformIdx val="2"/>
-                  <_TabbingOrderDspIndex val="2"/>
+                  <_RecomputeIndex val="3"/>
+                  <_FormIndex val="3"/>
+                  <_ControlIndex val="3"/>
+                  <_OleSubformIdx val="3"/>
+                  <_TabbingOrderDspIndex val="3"/>
                   <DIFF_UPDATE val="T"/>
                   <Condition val="N"/>
                   <Modifier val="S"/>
@@ -295,11 +296,11 @@
                   <Type val="R"/>
                   <IsParameter val="N"/>
                   <Locate MAX="1" MIN="1"/>
-                  <_RecomputeIndex val="2"/>
-                  <_FormIndex val="2"/>
-                  <_ControlIndex val="2"/>
-                  <_OleSubformIdx val="2"/>
-                  <_TabbingOrderDspIndex val="2"/>
+                  <_RecomputeIndex val="3"/>
+                  <_FormIndex val="3"/>
+                  <_ControlIndex val="3"/>
+                  <_OleSubformIdx val="3"/>
+                  <_TabbingOrderDspIndex val="3"/>
                   <DIFF_UPDATE val="T"/>
                   <Condition val="N"/>
                   <Modifier val="S"/>
@@ -311,11 +312,12 @@
                   <Column val="5"/>
                   <Type val="R"/>
                   <IsParameter val="N"/>
+                  <_RecomputeLength val="1"/>
                   <_RecomputeIndex val="2"/>
-                  <_FormIndex val="2"/>
-                  <_ControlIndex val="2"/>
-                  <_OleSubformIdx val="2"/>
-                  <_TabbingOrderDspIndex val="2"/>
+                  <_FormIndex val="3"/>
+                  <_ControlIndex val="3"/>
+                  <_OleSubformIdx val="3"/>
+                  <_TabbingOrderDspIndex val="3"/>
                   <DIFF_UPDATE val="T"/>
                   <Condition val="N"/>
                   <Modifier val="S"/>
@@ -666,7 +668,7 @@
             <ExpAttribute val="B"/>
           </Expression>
           <Expression id="6">
-            <ExpSyntax val="{32768,4}"/>
+            <ExpSyntax val="{0,8}"/>
             <ExpAttribute val="N"/>
           </Expression>
           <Expression id="7">

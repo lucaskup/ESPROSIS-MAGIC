@@ -1,0 +1,8 @@
+          1 Machado de Assis
+          2 Carlos Drummond de Andrade
+          3 Clarice Lispector
+          4 Paulo Coelho
+          5 Jorge Amado
+          6 José de Alencar
+          7 Castro Alves
+          8 Érico Veríssimo

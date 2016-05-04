@@ -45,3 +45,5 @@
  <316510837175657600> 12/04/2016 23:14:32.701     [Error  ] - Cannot modify Read Only, data source: EMPRESTIMO, program: Principal.View - Main.View - Devolução
  <99568384759853024> 13/04/2016 19:47:39.813     [Error  ] - Warning - Modify operation canceled due to task Query mode, program: Principal.View - Main.View - Multa
  <293638910802101568> 13/04/2016 19:48:09.782     [Error  ] - Warning - Modify operation canceled due to task Query mode, program: View - Multa
+ <390787651327869952> 30/04/2016 13:22:37.910     [Error  ] - Duplicate index, data source: PERFIL, program: View - Perfil.View - Perfil - Edição.Controller - Perfil - Editar
+ <514585442415122944> 30/04/2016 13:23:03.379     [Error  ] - Duplicate index, data source: PERFIL, program: View - Perfil.View - Perfil - Edição.Controller - Perfil - Editar

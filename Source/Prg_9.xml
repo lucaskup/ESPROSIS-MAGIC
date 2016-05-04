@@ -26,7 +26,7 @@
           <Offline val="N"/>
           <FormType val="N"/>
           <DotNetObjectExists val="N"/>
-          <LastModified _date="736078" _time="68415" date="24/04/2016" time="19:00:15"/>
+          <LastModified _date="736084" _time="48080" date="30/04/2016" time="13:21:20"/>
         </Header>
         <ItemIsn val="10"/>
         <Resource>
@@ -557,7 +557,7 @@
         <TaskForms>
           <FormEntry _last_isn="18" _last_test_id="18" id="1">
             <PropertyList model="FORM_GUI0">
-              <Width id="23" val="537"/>
+              <Width id="23" val="644"/>
               <Height id="24" val="241"/>
               <FormUnits id="33" val="1"/>
               <VerticalFactor id="34" val="8"/>
@@ -575,13 +575,13 @@
                 <Placement bottom="100" id="20" right="100"/>
                 <X id="21" val="8"/>
                 <Y id="22" val="8"/>
-                <Width id="23" val="519"/>
+                <Width id="23" val="625"/>
                 <Height id="24" val="204"/>
                 <LineDivider id="78"/>
                 <TitleHeight id="79" val="16"/>
                 <RowHeight id="80" val="20"/>
                 <Elements id="81" val="4"/>
-                <_WindowWidth id="241" val="519"/>
+                <_WindowWidth id="241" val="625"/>
                 <RowHighlightStyle id="409" val="4"/>
                 <RowHighlightColor id="410" val="5"/>
                 <BottomPositionInterval id="411" val="2"/>
@@ -601,7 +601,7 @@
             </Control>
             <Control ISN_FATHER="1" PDOD="128" _test_id="5" id="5">
               <PropertyList model="CTRL_GUI0_COLUMN">
-                <Width id="23" val="204"/>
+                <Width id="23" val="232"/>
                 <ControlLayer id="25" val="2"/>
                 <Font id="50" val="12"/>
                 <Color id="51" val="5"/>
@@ -610,7 +610,7 @@
             </Control>
             <Control ISN_FATHER="1" PDOD="128" _test_id="14" id="14">
               <PropertyList model="CTRL_GUI0_COLUMN">
-                <Width id="23" val="152"/>
+                <Width id="23" val="194"/>
                 <ControlLayer id="25" val="3"/>
                 <Font id="50" val="12"/>
                 <ColumnTitle id="139" valUnicode="Autor"/>
@@ -618,7 +618,7 @@
             </Control>
             <Control ISN_FATHER="1" PDOD="128" _test_id="16" id="16">
               <PropertyList model="CTRL_GUI0_COLUMN">
-                <Width id="23" val="83"/>
+                <Width id="23" val="119"/>
                 <ControlLayer id="25" val="4"/>
                 <Font id="50" val="12"/>
                 <ColumnTitle id="139" valUnicode="ISBN"/>
@@ -653,7 +653,7 @@
                 <Placement bottom="100" id="20" right="100"/>
                 <X id="21" val="75"/>
                 <Y id="22" val="27"/>
-                <Width id="23" val="199"/>
+                <Width id="23" val="227"/>
                 <Height id="24" val="16"/>
                 <ControlLayer id="25" val="2"/>
                 <Data FieldID="2" id="43"/>
@@ -672,9 +672,9 @@
                   <Var FieldID="10"/>
                 </Model>
                 <Placement bottom="100" id="20" right="100"/>
-                <X id="21" val="431"/>
+                <X id="21" val="501"/>
                 <Y id="22" val="27"/>
-                <Width id="23" val="76"/>
+                <Width id="23" val="114"/>
                 <Height id="24" val="16"/>
                 <ControlLayer id="25" val="4"/>
                 <Data FieldID="10" id="43"/>
@@ -690,9 +690,9 @@
             <Control ISN_FATHER="1" PDOD="1" _test_id="18" id="18">
               <PropertyList model="CTRL_GUI0_COMBOBOX">
                 <Placement bottom="100" id="20" right="100"/>
-                <X id="21" val="279"/>
+                <X id="21" val="307"/>
                 <Y id="22" val="26"/>
-                <Width id="23" val="147"/>
+                <Width id="23" val="189"/>
                 <Height id="24" val="18"/>
                 <ControlLayer id="25" val="3"/>
                 <Data FieldID="9" id="43"/>
@@ -714,7 +714,7 @@
                 <Model ID="MODEL_GUI_INT" id="1">
                   <Var FieldID="7"/>
                 </Model>
-                <X id="21" val="162"/>
+                <X id="21" val="268"/>
                 <Y id="22" val="216"/>
                 <Width id="23" val="87"/>
                 <Height id="24" val="16"/>
@@ -734,7 +734,7 @@
                 <Model ID="MODEL_GUI_INT" id="1">
                   <Var FieldID="4"/>
                 </Model>
-                <X id="21" val="254"/>
+                <X id="21" val="360"/>
                 <Y id="22" val="216"/>
                 <Width id="23" val="87"/>
                 <Height id="24" val="16"/>
@@ -754,7 +754,7 @@
                 <Model ID="MODEL_GUI_INT" id="1">
                   <Var FieldID="5"/>
                 </Model>
-                <X id="21" val="346"/>
+                <X id="21" val="452"/>
                 <Y id="22" val="216"/>
                 <Width id="23" val="87"/>
                 <Height id="24" val="16"/>
@@ -774,7 +774,7 @@
                 <Model ID="MODEL_GUI_INT" id="1">
                   <Var FieldID="6"/>
                 </Model>
-                <X id="21" val="438"/>
+                <X id="21" val="544"/>
                 <Y id="22" val="216"/>
                 <Width id="23" val="87"/>
                 <Height id="24" val="16"/>

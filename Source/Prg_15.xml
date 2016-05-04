@@ -33,7 +33,7 @@
           <Offline val="N"/>
           <FormType val="N"/>
           <DotNetObjectExists val="N"/>
-          <LastModified _date="736062" _time="71470" date="08/04/2016" time="19:51:10"/>
+          <LastModified _date="736084" _time="48390" date="30/04/2016" time="13:26:30"/>
         </Header>
         <ItemIsn val="12"/>
         <Resource>
@@ -439,8 +439,8 @@
             <ExpAttribute val="B"/>
           </Expression>
           <Expression id="10">
-            <ExpSyntax val="buscaUltimoID('{1,-1}'DSOURCE)"/>
-            <ExpAttribute val="*"/>
+            <ExpSyntax val="buscaUltimoID('{3,-1}'DSOURCE)"/>
+            <ExpAttribute val="N"/>
           </Expression>
           <Expression id="8">
             <ExpSyntax val="{0,3}"/>
